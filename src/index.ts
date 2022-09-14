@@ -14,5 +14,7 @@ import './style/main/sectionGameMain.css';
 import './style/main/mainSectionConfidence.css';
 import './style/main/sectionBigDiscont.css';
 import './style/main/sectionReviews.css';
+import './style/main/mainSectionSecondBaner.css';
+import './style/main/sectionBlog.css';
 
 import './style/footer/footer.css';
