@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #19143E;
+    height: 388px;
+    position: relative;
+}
+.footer-dop-inf{
+    display: flex;
+    justify-content: space-between;
+    width: 703px;
+    padding: 40px 0 40px 0;
+}
+.wrapper-footer-logo{
+    width: 90px;
+    height: 43px;
+}
+.footer-logo{
+    width: 100%;
+    height: 100%;
+}
+.colum-footer-content, .list-footer-buyer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-footer-content{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.point-footer-list{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.footer-wrapper-for-icon{
+    display: flex;
+    width: 112px;
+    gap: 20px;
+}
+.link-footer-contacts{
+    width: 24px;
+    height: 24px;
+}
+.icon-footer-contacts{
+    width: 100%;
+    height: 100%;
+}
+.protection-of-rights{
+    background: #19143E;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.footer-hr-line{
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    opacity: 0.08;
+    width: 1920px;
+    height: 1px;
+    position: absolute;
+    bottom: 96px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
