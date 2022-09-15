@@ -29,7 +29,7 @@
 }
 .section-blog-wrapper-card{
     width: 386px;
-    background-image: url(../../assets/photo/mainSectionBlog/cardBlog01.png);
+    background-image: url(../../../assets/photo/mainSectionBlog/cardBlog01.png);
     position: relative;
 }
 .blog-wrapper-card-content{

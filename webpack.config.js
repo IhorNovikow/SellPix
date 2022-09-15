@@ -8,6 +8,7 @@ const EslingPlugin = require('eslint-webpack-plugin');
 const baseConfig = {
     entry: {
         index: path.resolve(__dirname, './src/index'),
+        gamePage: path.resolve(__dirname, './src/gamePage'),
     },
     mode: 'development',
     module: {
@@ -36,14 +37,16 @@ const baseConfig = {
     },
     plugins: [
         new EslingPlugin({ extensions: 'ts' }),
-        new HtmlWebpackPlugin(
-        {
+        new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/index.html'),
             filename: 'index.html',
             inject:false,
-        }
-        ),
-
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/gamePage.html'),
+            filename: 'gamePage.html',
+            inject: false,
+        }),
         new CopyPlugin({
             patterns: [
               { from: "src/assets", to: "assets" },

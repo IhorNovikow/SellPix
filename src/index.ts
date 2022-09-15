@@ -1,20 +1,25 @@
 import './assets/fonts/Gilroy/stylesheet.css';
 import './assets/fonts/BebasNeus/stylesheet.css';
 
-import './style/html/html.css';
-import './style/html/body.css';
-import './style/html/reset.css';
+import './style/mainPage/html/html.css';
+//import './style/mainPage/html/body.css';
+import './style/mainPage/html/reset.css';
 
-import './style/header/header.css';
-import './style/header/nav.css';
+import './style/mainPage/header/header.css';
+import './style/mainPage/header/nav.css';
 
-import './style/main/main.css';
-import './style/main/sectionBanerMain.css';
-import './style/main/sectionGameMain.css';
-import './style/main/mainSectionConfidence.css';
-import './style/main/sectionBigDiscont.css';
-import './style/main/sectionReviews.css';
-import './style/main/mainSectionSecondBaner.css';
-import './style/main/sectionBlog.css';
+import './style/mainPage/main/main.css';
+import './style/mainPage/main/sectionBanerMain.css';
+import './style/mainPage/main/sectionGameMain.css';
+import './style/mainPage/main/mainSectionConfidence.css';
+import './style/mainPage/main/sectionBigDiscont.css';
+import './style/mainPage/main/sectionReviews.css';
+import './style/mainPage/main/mainSectionSecondBaner.css';
+import './style/mainPage/main/sectionBlog.css';
 
-import './style/footer/footer.css';
+import './style/mainPage/footer/footer.css';
+
+const mainWrapperGameContentTitle = <HTMLElement>document.querySelector('.main-wrapper-game-content-title');
+mainWrapperGameContentTitle.addEventListener('click', () => {
+    location.href = './gamePage.html';
+});

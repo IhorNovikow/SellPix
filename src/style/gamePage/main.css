@@ -1,0 +1,93 @@
+.main{
+    height: 2052px;
+    padding: 60px 0  100px 0;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.main-wrapper-title{
+    padding-top: 16px;
+    width: 311px;
+}
+.main-wrapper-button-sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-button-sort-first{
+    display: flex;
+    gap: 30px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+}
+.btn-sort{
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 191px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 59px;
+    border: none;
+}
+.title-btn-sort{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #716BA8;
+}
+.Icon_down-btn-sort{
+    width: 24px;
+    height: 24px;
+}
+.wrapper-button-sort-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+    width: 146px;
+}
+.title-btn-sort-second{
+    padding-left: 20px;
+}
+.main-wrapper-game-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.main-wrapper-button-see-more{
+    display: flex;
+    justify-content: center;
+}
+.btn-see-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 176px;
+    height: 54px;
+
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
