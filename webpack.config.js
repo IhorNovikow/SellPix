@@ -7,10 +7,10 @@ const EslingPlugin = require('eslint-webpack-plugin');
 
 const baseConfig = {
     entry: {
-        index: path.resolve(__dirname, './src/index'),
-        gamePage: path.resolve(__dirname, './src/gamePage'),
-        oneGamePage: path.resolve(__dirname, './src/oneGamePage'),
-        favoritsGamePage: path.resolve(__dirname, './src/favoritsGamePage'),
+        index: path.resolve(__dirname, './src/index/index'),
+        gamePage: path.resolve(__dirname, './src/gamePage/gamePage'),
+        oneGamePage: path.resolve(__dirname, './src/oneGamePage/oneGamePage'),
+        favoritsGamePage: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage'),
     },
     mode: 'development',
     module: {
@@ -40,22 +40,22 @@ const baseConfig = {
     plugins: [
         new EslingPlugin({ extensions: 'ts' }),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/index.html'),
+            template: path.resolve(__dirname, './src/index/index.html'),
             filename: 'index.html',
             inject:false,
         }),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/gamePage.html'),
+            template: path.resolve(__dirname, './src/gamePage/gamePage.html'),
             filename: 'gamePage.html',
             inject: false,
         }),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/oneGamePage.html'),
+            template: path.resolve(__dirname, './src/oneGamePage/oneGamePage.html'),
             filename: 'oneGamePage.html',
             inject: false,
         }),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/favoritsGamePage.html'),
+            template: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage.html'),
             filename: 'favoritsGamePage.html',
             inject: false,
         }),
