@@ -1,0 +1,37 @@
+.description-game{
+    display: flex;
+    flex-direction: column;
+    width: 801px;
+    height: 293px;
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-title-description-section{
+    height: 64px;
+    padding: 30px 0 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.title-descrioption{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+    height: 34px;
+}
+.title-description-active{
+    color: #FFFFFF;
+    border-bottom: 2px solid #E4014A;
+}
+.content-description-game{
+    padding: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}

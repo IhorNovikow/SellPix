@@ -1,0 +1,133 @@
+.wrapper-review{
+    width: 801px;
+    height: 712px;
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-title-review-and-coments{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    height: 64px;
+    padding: 30px 0 0 30px;
+}
+.title-review-and-coments{
+    display: flex;
+    gap: 5px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716BA8;
+    padding-bottom: 9.5px;
+}
+.title-review-active{
+    color: #FFFFFF;
+    display: block;
+}
+.title-review-and-coments-active{
+    border-bottom: 2px solid #E4014A;
+}
+.textarea-text-coments{
+    border: none;
+    margin: 20px 0 0 30.5px;
+    width: 740px;
+    height: 129px;
+    background: #211946;
+    border-radius: 20px;
+    color: #716BA8;
+    position: relative;
+    padding: 30px;
+}
+.textarea-text-coments::placeholder{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #716BA8;
+    background: #211946;
+}
+.textarea-text-coments:focus{
+    outline: none;
+}
+.input-btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30.5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    width: 246px;
+    height: 54px;
+
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.wrapper-blok-coment{
+    height: 100px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+.wrapper-avatar-coment{
+    width: 80px;
+    height: 60px;
+    padding-right: 20px;
+}
+.avatar-coment{
+    width: 100%;
+    height: 100%;
+}
+.wrapper-content-coment{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 487px;
+    margin-right: 36px;
+}
+.wrapper-nick-athor{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: -2px;
+    margin-bottom: 12px;
+}
+.wrapper-content-coment-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.wrapper-time-coment{
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #716BA8;
+    margin-top: -2px;
+    margin-bottom: 2px;
+}

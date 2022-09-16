@@ -12,3 +12,8 @@ import './style/mainPage/main/sectionGameMain.css';
 import './style/gamePage/main.css';
 
 import './style/mainPage/footer/footer.css';
+
+const card1 = <HTMLElement>document.querySelector('.card1');
+card1.addEventListener('click', () => {
+    location.href = './oneGamePage.html';
+});

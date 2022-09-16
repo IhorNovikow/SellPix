@@ -1,0 +1,33 @@
+.title-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.wrapper-title-game{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.title-game-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.saveToFavorits{
+    width: 17.33px;
+    height: 23.33px;
+    margin-top: 9px;
+    margin-right: 6px;
+}
