@@ -1,0 +1,38 @@
+.main-wrapper-first-colum{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.wrapper-description-game{
+    width: 386px;
+    height: 311px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #19143E;
+}
+.list-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.line-discription{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.title-line-discription{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.discription-title-line-discription{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}

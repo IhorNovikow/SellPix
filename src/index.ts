@@ -23,3 +23,8 @@ const mainWrapperGameContentTitle = <HTMLElement>document.querySelector('.main-w
 mainWrapperGameContentTitle.addEventListener('click', () => {
     location.href = './gamePage.html';
 });
+
+const card1 = <HTMLElement>document.querySelector('.card1');
+card1.addEventListener('click', () => {
+    location.href = './oneGamePage.html';
+});
