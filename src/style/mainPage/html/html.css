@@ -1,5 +1,7 @@
 html{
     background: #140F36;
+    width: 1920px;
+    margin: 0 auto;
 }
 .wrapper{
     width: 1220px;
@@ -7,13 +9,14 @@ html{
 }
 .hr-line{
     border:  none;
-    border-bottom: 0.031rem solid #FFFFFF;
-    opacity: 0.08;
+    border-bottom: .5px solid #FFFFFF;
+    opacity: .08;
     width: 1920px;
-    height: 1.5px;
     position: absolute;
-    top: 106px;
+    top: 113px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
+

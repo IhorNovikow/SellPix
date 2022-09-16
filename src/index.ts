@@ -8,7 +8,6 @@ import './style/mainPage/html/reset.css';
 import './style/mainPage/header/header.css';
 import './style/mainPage/header/nav.css';
 
-import './style/mainPage/main/main.css';
 import './style/mainPage/main/sectionBanerMain.css';
 import './style/mainPage/main/sectionGameMain.css';
 import './style/mainPage/main/mainSectionConfidence.css';
@@ -27,4 +26,9 @@ mainWrapperGameContentTitle.addEventListener('click', () => {
 const card1 = <HTMLElement>document.querySelector('.card1');
 card1.addEventListener('click', () => {
     location.href = './oneGamePage.html';
+});
+
+const imgIconSave = <HTMLElement>document.querySelector('.img-Icon_save');
+imgIconSave.addEventListener('click', () => {
+    location.href = './favoritsGamePage.html';
 });

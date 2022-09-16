@@ -7,12 +7,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     color: #716BA8;
 }
 .main-wrapper-title{
     padding-top: 16px;
-    width: 311px;
+    /*width: 311px;*/
 }
 .main-wrapper-button-sort{
     display: flex;
@@ -41,7 +41,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #716BA8;
 }
@@ -87,7 +87,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
