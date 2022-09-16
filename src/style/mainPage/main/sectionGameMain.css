@@ -24,8 +24,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 122px;
     height: 50px;
+    display: flex;
+    gap: 11px;
 }
 .title-forward{
     width: 24px;
@@ -78,7 +79,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #E4014A;
 }
@@ -109,7 +110,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
 
 }
 .wrapper-seill{

@@ -23,6 +23,7 @@
 .colum-footer-content, .list-footer-buyer{
     display: flex;
     flex-direction: column;
+    padding-top: 2px;
     gap: 20px;
 }
 
@@ -31,7 +32,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 24px;
     color: #FFFFFF;
 }
 .point-footer-list{
@@ -39,7 +40,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     color: #716BA8;
 }
 .footer-wrapper-for-icon{
@@ -66,7 +67,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     color: #716BA8;
 }
 .footer-hr-line{
@@ -74,9 +75,8 @@
     border-bottom: 0.5px solid #FFFFFF;
     opacity: 0.08;
     width: 1920px;
-    height: 1px;
     position: absolute;
-    bottom: 96px;
+    bottom: 104px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
