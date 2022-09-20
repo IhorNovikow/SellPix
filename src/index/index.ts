@@ -31,3 +31,8 @@ const imgIconSave = <HTMLElement>document.querySelector('.img-Icon_save');
 imgIconSave.addEventListener('click', () => {
     location.href = './favoritsGamePage.html';
 });
+
+const wrapperUser = <HTMLElement>document.querySelector('.wrapper-user');
+wrapperUser.addEventListener('click', () => {
+    location.href = './profilePage.html';
+});

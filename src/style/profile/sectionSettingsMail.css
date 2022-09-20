@@ -1,0 +1,60 @@
+.section-settings-mail{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+
+    width: 906px;
+    height: 258px;
+    background: #19143E;
+    border-radius: 30px;
+}
+.settings-mail-message{
+    height: 48px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.red-word{
+    color: #E4014A;
+}
+.news-sales, .news-game, .news-about-us{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper-togl{
+    width: 50px;
+    height: 30px;
+    background: #211946;
+    border-radius: 34px;
+    position: relative;
+}
+.wrapper-togl-circle{
+    width: 24px;
+    height: 24px;
+    background: #716BA8;
+    border-radius: 34px;
+
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.wrapper-togl-circle-active{
+    background: #E4014A;
+    left: 23px;
+}
+
+.news-content{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

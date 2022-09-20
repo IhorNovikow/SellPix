@@ -11,6 +11,7 @@ const baseConfig = {
         gamePage: path.resolve(__dirname, './src/gamePage/gamePage'),
         oneGamePage: path.resolve(__dirname, './src/oneGamePage/oneGamePage'),
         favoritsGamePage: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage'),
+        profilePage: path.resolve(__dirname, './src/profile/profilePage'),
     },
     mode: 'development',
     module: {
@@ -57,6 +58,11 @@ const baseConfig = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage.html'),
             filename: 'favoritsGamePage.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/profile/profilePage.html'),
+            filename: 'profilePage.html',
             inject: false,
         }),
         new CopyPlugin({
