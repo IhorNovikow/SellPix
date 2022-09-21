@@ -23,14 +23,21 @@ const myPurchases = <HTMLElement>document.querySelector('.my-purchases');
 const exit = <HTMLElement>document.querySelector('.exit');
 
 const liNavigationBox = document.querySelectorAll('.li-navigation-box');
+
 const informationProfile = <HTMLElement>document.querySelector('.information-profile');
+const sectionSettingsProfile = <HTMLElement>document.querySelector('.section-settings-profile');
+const sectionSettingsMail = <HTMLElement>document.querySelector('.section-settings-mail');
+const sectionMySeils = <HTMLElement>document.querySelector('.section-my-seils');
 
 profile.addEventListener('click', () => {
     liNavigationBox.forEach((el) => {
         el.classList.remove('li-navigation-box-active');
     });
     profile.classList.add('li-navigation-box-active');
-    informationProfile.classList.add('displayNone');
+    sectionSettingsProfile.classList.add('displayNone');
+    sectionSettingsMail.classList.add('displayNone');
+    sectionMySeils.classList.add('displayNone');
+    informationProfile.classList.remove('displayNone');
 });
 
 settingsProfile.addEventListener('click', () => {
@@ -38,7 +45,10 @@ settingsProfile.addEventListener('click', () => {
         el.classList.remove('li-navigation-box-active');
     });
     settingsProfile.classList.add('li-navigation-box-active');
+    sectionSettingsMail.classList.add('displayNone');
+    sectionMySeils.classList.add('displayNone');
     informationProfile.classList.add('displayNone');
+    sectionSettingsProfile.classList.remove('displayNone');
 });
 
 settingsMail.addEventListener('click', () => {
@@ -46,7 +56,10 @@ settingsMail.addEventListener('click', () => {
         el.classList.remove('li-navigation-box-active');
     });
     settingsMail.classList.add('li-navigation-box-active');
+    sectionSettingsProfile.classList.add('displayNone');
+    sectionMySeils.classList.add('displayNone');
     informationProfile.classList.add('displayNone');
+    sectionSettingsMail.classList.remove('displayNone');
 });
 
 myPurchases.addEventListener('click', () => {
@@ -54,12 +67,19 @@ myPurchases.addEventListener('click', () => {
         el.classList.remove('li-navigation-box-active');
     });
     myPurchases.classList.add('li-navigation-box-active');
+    sectionSettingsProfile.classList.add('displayNone');
+    sectionSettingsMail.classList.add('displayNone');
     informationProfile.classList.add('displayNone');
+    sectionMySeils.classList.remove('displayNone');
 });
+
 exit.addEventListener('click', () => {
     liNavigationBox.forEach((el) => {
         el.classList.remove('li-navigation-box-active');
     });
     exit.classList.add('li-navigation-box-active');
+    sectionSettingsProfile.classList.add('displayNone');
+    sectionSettingsMail.classList.add('displayNone');
+    sectionMySeils.classList.add('displayNone');
     informationProfile.classList.add('displayNone');
 });
