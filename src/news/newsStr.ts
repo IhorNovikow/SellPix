@@ -11,3 +11,11 @@ import '../style/news/main.css';
 import '../style/news/sectionBanerNews.css';
 
 import '../style/mainPage/footer/footer.css';
+
+const sectionBlogWrapperCard: NodeListOf<Element> = document.querySelectorAll('.section-blog-wrapper-card');
+
+sectionBlogWrapperCard.forEach((el) => {
+    el.addEventListener('click', () => {
+        location.href = './oneNewsPage.html';
+    });
+});

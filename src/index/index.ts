@@ -42,3 +42,11 @@ const wappperForButtonBlog = <HTMLElement>document.querySelector('.wappper-for-b
 wappperForButtonBlog.addEventListener('click', () => {
     location.href = './newsStr.html';
 });
+
+const sectionBlogWrapperCard: NodeListOf<Element> = document.querySelectorAll('.section-blog-wrapper-card');
+
+sectionBlogWrapperCard.forEach((el) => {
+    el.addEventListener('click', () => {
+        location.href = './oneNewsPage.html';
+    });
+});
