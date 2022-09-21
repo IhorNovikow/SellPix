@@ -31,3 +31,28 @@ const imgIconSave = <HTMLElement>document.querySelector('.img-Icon_save');
 imgIconSave.addEventListener('click', () => {
     location.href = './favoritsGamePage.html';
 });
+
+const wrapperUser = <HTMLElement>document.querySelector('.wrapper-user');
+wrapperUser.addEventListener('click', () => {
+    location.href = './profilePage.html';
+});
+
+const wappperForButtonBlog = <HTMLElement>document.querySelector('.wappper-for-button-blog');
+
+wappperForButtonBlog.addEventListener('click', () => {
+    location.href = './newsStr.html';
+});
+
+const sectionBlogWrapperCard: NodeListOf<Element> = document.querySelectorAll('.section-blog-wrapper-card');
+
+sectionBlogWrapperCard.forEach((el) => {
+    el.addEventListener('click', () => {
+        location.href = './oneNewsPage.html';
+    });
+});
+
+const qestionSTR = <HTMLElement>document.querySelector('.qestion');
+
+qestionSTR.addEventListener('click', () => {
+    location.href = './qestionPage.html';
+});

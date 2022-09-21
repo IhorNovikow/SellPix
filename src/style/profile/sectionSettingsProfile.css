@@ -1,0 +1,118 @@
+.section-settings-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    width: 906px;
+    height: 373px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-settings-profile-title{
+    display: flex;
+    gap: 30px;
+    padding-left: 5px;
+}
+.settings-profile-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716BA8;
+    height: 34px;
+}
+.settings-profile-title-active{
+    color: #FFFFFF;
+    border-bottom: 1px solid #E4014A;
+}
+.hr-discont-description{
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 906px;
+    position: relative;
+    left: -30px;
+}
+.wrapper-settings-profile-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    /*height: 278px;*/
+}
+.profile-content-title{
+    display: flex;
+    height: 80px;
+    gap: 20px;
+}
+.title-nick, .title-mail{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #716BA8;
+
+    padding-bottom: 5px;
+}
+.text-name, .text-mail{
+    display: flex;
+    padding: 15px 20px;
+    width: 413px;
+    height: 54px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-radius: 59px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    }
+.text-name::placeholder, .text-mail ::placeholder{
+    color: #716BA8;
+}
+.btn-join-steam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    height: 54px;
+
+    background: #271C79;
+    border-radius: 100px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.btn-save-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    height: 54px;
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.4);
+    border-radius: 48px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}

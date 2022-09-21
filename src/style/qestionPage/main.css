@@ -1,0 +1,126 @@
+.main{
+    padding: 60px 0 100px 0;
+}
+.wrapper-content-qestion{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-wrapper-title{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.title-game-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.description-question-page{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.wrapper-qestion-and-answer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+
+    width: 1218px;
+    height: 234px;
+
+    background: #19143E;
+    border-radius: 20px;
+}
+.wrapper-qestion{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    position: relative;
+}
+.wrapper-icon-qestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 61px;
+    height: 61px;
+
+    border-radius: 30px;
+}
+
+.icon-open{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    transform: rotate(90deg);
+}
+.icon-close{
+    transform: rotate(-90deg);
+}
+.hr-qestion{
+    border: none;
+    background: rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    width: 1158px;
+
+}
+.wrapper-answer{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.wrapper-qestion-solo{
+    padding: 30px;
+    width: 1218px;
+    height: 121px;
+    background: #19143E;
+    border-radius: 20px;
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.wrapper-qestion-solo-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+    height: 100%;
+
+
+
+
+}

@@ -1,0 +1,167 @@
+.baner-news{
+    width: 1218px;
+    height: 461px;
+    background: url(../../assets/photo/news/backgroundBaner.png);
+    border-radius: 60px;
+    position: relative;
+}
+.wrapper-baner-content{
+    position: absolute;
+    top: 127px;
+    left: 70px;
+}
+.wrapper-content-information{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.content-information-calendar, .content-information-view{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.content-information-view{
+    margin-left: 20px;
+}
+.content-information-time, .content-information-counter-view{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.wrapper-content-title-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.btr-read{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 121px;
+    height: 54px;
+
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+    margin-top: 17px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.main-wrapper-game-content-genre-button{
+    width: 620px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn-genre{
+    width: 140px;
+    height: 100%;
+    background: rgba(228, 1, 74, 0.2);
+    border-radius: 39px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #E4014A;
+}
+.btn-genre-active{
+    color: #FFFFFF;
+    background: #E4014A;
+}
+
+
+
+.section-blog-wrapper-cards{
+    height: 720px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-blog-wrapper-card{
+    width: 386px;
+    height: 330px;
+    background-image: url(../../assets/photo/mainSectionBlog/cardBlog01.png);
+    position: relative;
+}
+.blog-wrapper-card-content{
+    width: 100%;
+    height: 112px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0 0 30px;
+}
+.blog-card-title-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.blog-wrapper-card-content-description{
+    display: flex;
+    width: 194px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-Icon_calendar, .blog-Icon_view{
+    width: 24px;
+    height: 24px;
+}
+.blog-card-time, .counter-view{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.wappper-for-button-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-news-show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 54px;
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border:  none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}

@@ -11,6 +11,10 @@ const baseConfig = {
         gamePage: path.resolve(__dirname, './src/gamePage/gamePage'),
         oneGamePage: path.resolve(__dirname, './src/oneGamePage/oneGamePage'),
         favoritsGamePage: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage'),
+        profilePage: path.resolve(__dirname, './src/profile/profilePage'),
+        newsStr: path.resolve(__dirname, './src/news/newsStr'),
+        oneNewsPage: path.resolve(__dirname, './src/oneNewsPage/oneNewsPage'),
+        qestionPage: path.resolve(__dirname, './src/qestionPage/qestionPage'),
     },
     mode: 'development',
     module: {
@@ -57,6 +61,26 @@ const baseConfig = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/favoritsGamePage/favoritsGamePage.html'),
             filename: 'favoritsGamePage.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/profile/profilePage.html'),
+            filename: 'profilePage.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/news/newsStr.html'),
+            filename: 'newsStr.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/oneNewsPage/oneNewsPage.html'),
+            filename: 'oneNewsPage.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/qestionPage/qestionPage.html'),
+            filename: 'qestionPage.html',
             inject: false,
         }),
         new CopyPlugin({

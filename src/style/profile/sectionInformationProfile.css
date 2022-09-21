@@ -1,0 +1,218 @@
+.information-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.information-profile-data{
+    width: 906px;
+    height: 306px;
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-avatat-and-name{
+    display: flex;
+    height: 150px;
+    gap: 20px;
+    align-items: center;
+}
+.information-profile-avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 24px;
+    margin-left: 30px;
+}
+.wrapper-name-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.wrapper-name-subtitle{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #716BA8;
+}
+.wrapper-data-content{
+    height: 155px;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0 30px 0;
+}
+.wrapper-wrapper-data-content-item{
+    width: 156px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.title-item{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #E4014A;
+    text-align: center;
+}
+.description-item{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.discont-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+
+    width: 906px;
+    height: 384px;
+    margin-bottom: 100px;
+
+    background: #19143E;
+    border-radius: 30px;
+    
+}
+.wrapper-discont-and-title{
+    height: 130px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.wrapper-discont-percent{
+    width: 70px;
+    height: 70px;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #E4014A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(228, 1, 74, 0.2);
+    border: 1px solid #E4014A;
+    border-radius: 100px;
+}
+.wrapper-discont{
+    width: 282px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.discont-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.discont-subtitle{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.discont-subtitle-count{
+    color: #FFFFFF;
+}
+.wrapper-discont-description{
+    display: flex;
+    flex-direction: column;
+    width: 846px;
+    height: 224px;
+    background: #211946;
+    border-radius: 30px;
+}
+.discont-description-first-line{
+    display: flex;
+    align-items: center;
+    height: 111.5px;
+}
+.wrapper-first-line-box-title, .wrapper-second-line-box-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #716BA8;
+    width: 105.75px;
+    text-align: center;
+}
+.wrapper-first-line-box{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 105.75px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-first-line-box-active{
+    background: #E4014A;
+    height: 111.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-line-count, .first-line-title{
+    position: relative;
+    top: 5px;
+}
+.hr-discont-description{
+    border: none;
+    border-bottom: solid 1px #FFFFFF;
+    opacity: 0.03;
+}
+
+.discont-description-second-line{
+    display: flex;
+    align-items: center;
+}
+.wrapper-second-line-box{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #E4014A;
+    width: 105.75px;
+    text-align: center;
+}
+.wrapper-second-line-box-active{
+    background: #E4014A;
+    color: #FFFFFF;
+    height: 111.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-line-count, .second-line-title{
+    position: relative;
+    top: -7px;
+}
