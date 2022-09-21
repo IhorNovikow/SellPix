@@ -50,3 +50,9 @@ sectionBlogWrapperCard.forEach((el) => {
         location.href = './oneNewsPage.html';
     });
 });
+
+const qestionSTR = <HTMLElement>document.querySelector('.qestion');
+
+qestionSTR.addEventListener('click', () => {
+    location.href = './qestionPage.html';
+});
