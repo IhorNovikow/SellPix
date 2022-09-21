@@ -36,3 +36,9 @@ const wrapperUser = <HTMLElement>document.querySelector('.wrapper-user');
 wrapperUser.addEventListener('click', () => {
     location.href = './profilePage.html';
 });
+
+const wappperForButtonBlog = <HTMLElement>document.querySelector('.wappper-for-button-blog');
+
+wappperForButtonBlog.addEventListener('click', () => {
+    location.href = './newsStr.html';
+});
