@@ -74,3 +74,9 @@ const cooperation = <HTMLElement>document.querySelector('.cooperation');
 cooperation.addEventListener('click', () => {
     location.href = './cooperation.html';
 });
+
+const btnCatalog = <HTMLElement>document.querySelector('.btn-catalog');
+
+btnCatalog.addEventListener('click', () => {
+    location.href = './sale.html';
+});
