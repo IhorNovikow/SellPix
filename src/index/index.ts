@@ -62,3 +62,9 @@ const reviews = <HTMLElement>document.querySelector('.reviews');
 reviews.addEventListener('click', () => {
     location.href = './reviews.html';
 });
+
+const aboutUs = <HTMLElement>document.querySelector('.about-us');
+
+aboutUs.addEventListener('click', () => {
+    location.href = './aboutUs.html';
+});

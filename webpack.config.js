@@ -16,6 +16,7 @@ const baseConfig = {
         oneNewsPage: path.resolve(__dirname, './src/oneNewsPage/oneNewsPage'),
         qestionPage: path.resolve(__dirname, './src/qestionPage/qestionPage'),
         reviews: path.resolve(__dirname, './src/reviews/reviews'),
+        aboutUs: path.resolve(__dirname, './src/aboutUs/aboutUs'),
     },
     mode: 'development',
     module: {
@@ -87,6 +88,11 @@ const baseConfig = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/reviews/reviews.html'),
             filename: 'reviews.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/aboutUs/aboutUs.html'),
+            filename: 'aboutUs.html',
             inject: false,
         }),
         new CopyPlugin({

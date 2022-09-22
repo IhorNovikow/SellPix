@@ -1,0 +1,104 @@
+.wrapper-baner-about-us{
+    background: #19143E;
+    width: 1920px;
+    height: 493px;
+    border-top: 1px solid rgb(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.wrapper-content-baner-about-us{
+    display: flex;
+    width: 972px;
+    gap: 98px;
+    margin-left: -37px;
+}
+.main-wrapper-title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+    margin-bottom: 9px;
+}
+.title-game-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-left: -1px;
+}
+.title-description{
+    width: 563px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.Photo-shop-img{
+    margin-top: 54px;
+    margin-left: -32px; 
+    width: 372px;
+    height: 415px;
+}
+.red-word{
+    color: #E4014A;
+}
+
+.section-statistick-reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 57px;
+
+    width: 1218px;
+    height: 160px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-statistick-block{
+    width: 210px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.number-review{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #E4014A;
+}
+.description-review{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.main-section-confidence{
+    background: none;
+}
+.confidence-content-card {
+    background: #19143E;
+}
