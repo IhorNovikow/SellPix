@@ -56,3 +56,9 @@ const qestionSTR = <HTMLElement>document.querySelector('.qestion');
 qestionSTR.addEventListener('click', () => {
     location.href = './qestionPage.html';
 });
+
+const reviews = <HTMLElement>document.querySelector('.reviews');
+
+reviews.addEventListener('click', () => {
+    location.href = './reviews.html';
+});

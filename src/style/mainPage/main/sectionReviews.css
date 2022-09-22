@@ -82,3 +82,34 @@
     color: #FFFFFF;
     opacity: 0.5;
 }
+.section-review-cards{
+    width: 1218px;
+    height: 1059px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+}
+.btn-show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 176px;
+    height: 54px;
+
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+    margin: 0 auto;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
