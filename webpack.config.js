@@ -17,6 +17,7 @@ const baseConfig = {
         qestionPage: path.resolve(__dirname, './src/qestionPage/qestionPage'),
         reviews: path.resolve(__dirname, './src/reviews/reviews'),
         aboutUs: path.resolve(__dirname, './src/aboutUs/aboutUs'),
+        cooperation: path.resolve(__dirname, './src/cooperation/cooperation'),
     },
     mode: 'development',
     module: {
@@ -93,6 +94,11 @@ const baseConfig = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/aboutUs/aboutUs.html'),
             filename: 'aboutUs.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/cooperation/cooperation.html'),
+            filename: 'cooperation.html',
             inject: false,
         }),
         new CopyPlugin({

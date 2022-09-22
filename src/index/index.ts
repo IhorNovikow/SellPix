@@ -68,3 +68,9 @@ const aboutUs = <HTMLElement>document.querySelector('.about-us');
 aboutUs.addEventListener('click', () => {
     location.href = './aboutUs.html';
 });
+
+const cooperation = <HTMLElement>document.querySelector('.cooperation');
+
+cooperation.addEventListener('click', () => {
+    location.href = './cooperation.html';
+});

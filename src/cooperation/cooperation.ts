@@ -9,5 +9,6 @@ import '../style/mainPage/header/nav.css';
 
 import '../style/mainPage/main/mainSectionConfidence.css';
 import '../style/aboutUs/main.css';
+import '../style/cooperation/main.css';
 
 import '../style/mainPage/footer/footer.css';
