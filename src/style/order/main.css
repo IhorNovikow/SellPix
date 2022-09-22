@@ -1,0 +1,121 @@
+.main-wrapper{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+    margin-bottom: 13px;
+}
+.title-game-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.section-basket{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-basket-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    margin-top: 3px;
+}
+.wrapper-backet-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.wrapper-card-order{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+
+    width: 594px;
+    height: 270px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-order-description{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.description-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.wrapper-price-and-discont{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: -2px;
+}
+.real-prise{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.old-prise{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: line-through;
+    color: #716BA8;
+}
+.wrapper-discont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 54px;
+    height: 54px;
+
+    background: rgba(228, 1, 74, 0.2);
+    border-radius: 48px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #E4014A;
+}
+.description-line{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+    margin-top: -2px;
+}
+.description-text{
+    color: #FFFFFF;
+}

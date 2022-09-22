@@ -80,3 +80,9 @@ const btnCatalog = <HTMLElement>document.querySelector('.btn-catalog');
 btnCatalog.addEventListener('click', () => {
     location.href = './sale.html';
 });
+
+const wrapperBasket = <HTMLElement>document.querySelector('.wrapper-basket');
+
+wrapperBasket.addEventListener('click', () => {
+    location.href = './order.html';
+});
