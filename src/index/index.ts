@@ -56,3 +56,33 @@ const qestionSTR = <HTMLElement>document.querySelector('.qestion');
 qestionSTR.addEventListener('click', () => {
     location.href = './qestionPage.html';
 });
+
+const reviews = <HTMLElement>document.querySelector('.reviews');
+
+reviews.addEventListener('click', () => {
+    location.href = './reviews.html';
+});
+
+const aboutUs = <HTMLElement>document.querySelector('.about-us');
+
+aboutUs.addEventListener('click', () => {
+    location.href = './aboutUs.html';
+});
+
+const cooperation = <HTMLElement>document.querySelector('.cooperation');
+
+cooperation.addEventListener('click', () => {
+    location.href = './cooperation.html';
+});
+
+const btnCatalog = <HTMLElement>document.querySelector('.btn-catalog');
+
+btnCatalog.addEventListener('click', () => {
+    location.href = './sale.html';
+});
+
+const wrapperBasket = <HTMLElement>document.querySelector('.wrapper-basket');
+
+wrapperBasket.addEventListener('click', () => {
+    location.href = './order.html';
+});

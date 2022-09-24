@@ -15,6 +15,11 @@ const baseConfig = {
         newsStr: path.resolve(__dirname, './src/news/newsStr'),
         oneNewsPage: path.resolve(__dirname, './src/oneNewsPage/oneNewsPage'),
         qestionPage: path.resolve(__dirname, './src/qestionPage/qestionPage'),
+        reviews: path.resolve(__dirname, './src/reviews/reviews'),
+        aboutUs: path.resolve(__dirname, './src/aboutUs/aboutUs'),
+        cooperation: path.resolve(__dirname, './src/cooperation/cooperation'),
+        sale: path.resolve(__dirname, './src/sale/sale'),
+        order: path.resolve(__dirname, './src/order/order'),
     },
     mode: 'development',
     module: {
@@ -81,6 +86,31 @@ const baseConfig = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './src/qestionPage/qestionPage.html'),
             filename: 'qestionPage.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/reviews/reviews.html'),
+            filename: 'reviews.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/aboutUs/aboutUs.html'),
+            filename: 'aboutUs.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/cooperation/cooperation.html'),
+            filename: 'cooperation.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/sale/sale.html'),
+            filename: 'sale.html',
+            inject: false,
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './src/order/order.html'),
+            filename: 'order.html',
             inject: false,
         }),
         new CopyPlugin({

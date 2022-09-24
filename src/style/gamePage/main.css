@@ -48,6 +48,7 @@
 .Icon_down-btn-sort{
     width: 24px;
     height: 24px;
+    transform: rotate(90deg);
 }
 .wrapper-button-sort-second{
     display: flex;

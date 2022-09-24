@@ -25,13 +25,12 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    display: flex;
     gap: 11px;
 }
-.title-forward{
+.img-title-forward{
     width: 24px;
     height: 24px;
-    transform: rotate(-90deg);
+    
 }
 .main-wrapper-game-navigation{
     width: 110px;
@@ -51,12 +50,11 @@
 .back{
     width: 25px;
     height: 25px;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 .forward{
     width: 25px;
     height: 25px;
-    transform: rotate(-90deg);
 }
 
 .main-wrapper-game-content-genre-button{
