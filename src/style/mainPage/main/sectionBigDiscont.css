@@ -48,7 +48,7 @@
     background: rgba(255, 255, 255, 0.05);
     border-radius: 40px;
 }
-.back{
+/*.back{
     width: 25px;
     height: 25px;
     transform: rotate(90deg);
@@ -56,8 +56,7 @@
 .forward{
     width: 25px;
     height: 25px;
-    transform: rotate(-90deg);
-}
+}*/
 
 .main-wrapper-game-content-genre-button{
     width: 620px;

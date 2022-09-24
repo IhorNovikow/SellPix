@@ -63,6 +63,12 @@
     background: #E4014A;
     box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
     border-radius: 30px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
     color: #FFFFFF;
 }
 .wrapper-author-review-name{

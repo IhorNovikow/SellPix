@@ -74,7 +74,7 @@
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
     }
-.text-name::placeholder, .text-mail ::placeholder{
+.text-name::placeholder, .text-mail::placeholder{
     color: #716BA8;
 }
 .btn-join-steam{
