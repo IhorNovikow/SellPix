@@ -1,5 +1,5 @@
 .body{
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     background-color: rgb(189, 181, 181);
     

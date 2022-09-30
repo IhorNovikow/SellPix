@@ -95,8 +95,8 @@
     flex-wrap: wrap;
 
     gap: 30px;
-
 }
+
 .btn-show-more{
     display: flex;
     justify-content: center;
@@ -118,4 +118,9 @@
     line-height: 150%;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-show-more:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }

@@ -22,6 +22,7 @@
     line-height: 24px;
     color: #716BA8;
     height: 34px;
+    cursor: pointer;
 }
 .settings-profile-title-active{
     color: #FFFFFF;
@@ -30,6 +31,7 @@
 .hr-discont-description{
     border: none;
     border-bottom: 1px solid #FFFFFF;
+    opacity: 0.05;
     width: 906px;
     position: relative;
     left: -30px;
@@ -73,7 +75,14 @@
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
-    }
+}
+.text-name:hover, .text-mail:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+.text-name:focus, .text-mail:focus{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 .text-name::placeholder, .text-mail::placeholder{
     color: #716BA8;
 }
@@ -96,6 +105,7 @@
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .btn-save-profile{
     display: flex;
@@ -115,4 +125,9 @@
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-save-profile:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }

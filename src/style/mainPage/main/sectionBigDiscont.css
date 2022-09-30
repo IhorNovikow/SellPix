@@ -89,14 +89,18 @@
 .main-wrapper-game-content-cards{
     display: flex;
     flex-wrap: wrap;
-    
+
     gap: 30px;
 }
 .main-wrapper-game-content-card{
     width: 282px;
     height: 380px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/**//**//**/
 .wrapper-seill-discont{
     position: absolute;
     width: 140px;

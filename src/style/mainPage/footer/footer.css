@@ -42,7 +42,9 @@
     font-size: 16px;
     line-height: 24px;
     color: #716BA8;
+    cursor: pointer;
 }
+
 .footer-wrapper-for-icon{
     display: flex;
     width: 112px;

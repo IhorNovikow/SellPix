@@ -107,6 +107,9 @@
     line-height: 150%;
     color: #E4014A;
 }
+.wrapper-discont:hover{
+    background: rgba(228, 1, 74, 0.35);
+}
 .description-line{
     font-family: 'Gilroy';
     font-style: normal;
@@ -174,6 +177,22 @@
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position:right 18px bottom 15px;
+    cursor: pointer;
+}
+.select-payment:hover{
+    background: rgba(255, 255, 255, 0.1);
+    background-image:url(../../assets/icon/Icon_down.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position:right 18px bottom 15px;
+}
+.select-payment:focus{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    background-image:url(../../assets/icon/Icon_down.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position:right 18px bottom 15px;
 }
 select, select:focus, select:active, select:hover{
     outline: none;
@@ -190,6 +209,7 @@ select option{
     line-height: 150%;
     font-feature-settings: 'liga' off;
     color: #716BA8;
+    cursor: pointer;
 }
 .input-you-mail, .input-you-promoKod{
     display: flex;
@@ -210,7 +230,15 @@ select option{
     font-size: 16px;
     line-height: 150%;
     font-feature-settings: 'liga' off;
-    color: #716BA8;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.input-you-mail:hover, .input-you-promoKod:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+.input-you-mail:focus, .input-you-promoKod:focus{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
 }
 .input-you-mail::placeholder, .input-you-promoKod::placeholder{
     font-family: 'Gilroy';
@@ -249,6 +277,11 @@ select option{
     line-height: 150%;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-do-order:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }
 .total-title{
     font-family: 'Gilroy';

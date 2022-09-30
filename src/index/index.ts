@@ -2,6 +2,7 @@ import '../assets/fonts/Gilroy/stylesheet.css';
 import '../assets/fonts/BebasNeus/stylesheet.css';
 
 import '../style/mainPage/html/html.css';
+import '../style/mainPage/html/adaptiv.css';
 import '../style/mainPage/html/reset.css';
 
 import '../style/mainPage/header/header.css';

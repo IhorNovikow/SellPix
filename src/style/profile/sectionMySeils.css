@@ -69,6 +69,9 @@
     line-height: 150%;
     color: #E4014A;
 }
+.count-discont:hover{
+    background: rgba(228, 1, 74, 0.35);
+}
 .description-line{
     font-family: 'Gilroy';
     font-style: normal;
@@ -82,4 +85,5 @@
 }
 .red-word-code{
     color: #E4014A;
+    cursor: pointer;
 }

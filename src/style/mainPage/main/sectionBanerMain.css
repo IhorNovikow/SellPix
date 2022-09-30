@@ -51,6 +51,9 @@
     font-feature-settings: 'liga' off;
     color: #E4014A;
 }
+.main-content-wrapper-discount:hover{
+    background: rgba(228, 1, 74, 0.35);
+}
 .main-content-title{
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -95,6 +98,11 @@
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.main-content-button:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }
 .main-content-price{
     font-family: 'Gilroy';

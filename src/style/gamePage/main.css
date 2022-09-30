@@ -35,6 +35,10 @@
     background: rgba(255, 255, 255, 0.05);
     border-radius: 59px;
     border: none;
+    cursor: pointer;
+}
+.btn-sort:hover{
+    background: rgba(255, 255, 255, 0.1);
 }
 .title-btn-sort{
     font-family: 'Gilroy';
@@ -56,6 +60,7 @@
     justify-content: space-between;
     padding-top: 13px;
     width: 146px;
+    cursor: pointer;
 }
 .title-btn-sort-second{
     padding-left: 20px;
@@ -91,4 +96,9 @@
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-see-more:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }
