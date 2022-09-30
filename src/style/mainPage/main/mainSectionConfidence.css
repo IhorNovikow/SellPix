@@ -73,3 +73,40 @@
 .card-content-title-h{
     margin: 0;
 }
+@media screen and (max-width: 1919px) {
+    .main-section-confidence {
+        height: 794px;
+    }
+    .confidence-content-cards {
+        width: 732px;
+        height: 514px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .confidence-content-card {
+        width: 351px;
+        height: 242px;
+    }
+    .card-icon{
+        width: 61px;
+        height: 61px;
+    }
+    .card-content {
+        width: 210px;
+        height: 182px;
+    }
+    .card-content-text{
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    ::-webkit-scrollbar {
+        width: 2px; /* ширина для вертикального скролла */
+        height: 0; /* высота для горизонтального скролла */
+        background-color: #211946;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 9em;
+        box-shadow: inset 1px 1px 10px #FFFFFF;
+    }
+}

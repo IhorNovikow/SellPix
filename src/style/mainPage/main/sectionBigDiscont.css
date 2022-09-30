@@ -4,16 +4,6 @@
     background-color: #140F36;
     padding-top: 100px;
 }
-.main-wrapper-game-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-.main-wrapper-game-content-title{
-    display: flex;
-    justify-content: space-between;
-}
 .wrappper-for-title-big-discont{
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -48,25 +38,6 @@
     background: rgba(255, 255, 255, 0.05);
     border-radius: 40px;
 }
-/*.back{
-    width: 25px;
-    height: 25px;
-    transform: rotate(90deg);
-}
-.forward{
-    width: 25px;
-    height: 25px;
-}*/
-
-.main-wrapper-game-content-genre-button{
-    width: 620px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 .btn-genre{
     width: 140px;
     height: 100%;
@@ -85,47 +56,6 @@
 .btn-genre-active{
     color: #FFFFFF;
     background: #E4014A;
-}
-.main-wrapper-game-content-cards{
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 30px;
-}
-.main-wrapper-game-content-card{
-    width: 282px;
-    height: 380px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/**//**//**/
-.wrapper-seill-discont{
-    position: absolute;
-    width: 140px;
-    height: 40px;
-    display: flex;
-    right: 20px;
-    bottom: 20px;
-
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-
-}
-.wrapper-seill{
-    width: 78px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
-    background: #E4014A;
-    border-radius: 39px 0 0 39px;
 }
 .wrapper-discont{
     width: 61px;

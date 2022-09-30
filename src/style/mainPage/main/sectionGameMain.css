@@ -107,6 +107,9 @@
     width: 282px;
     height: 380px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-wrapper-game-content-card:hover .game-img{
     transform: scale(1.058);
@@ -161,4 +164,27 @@
     color: #E4014A;
     background: #FFFFFF;
     border-radius: 0 39px 39px 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .main-wrapper-game-content{
+        width: 732px;
+    }
+    .main-wrapper-game-content-cards {
+        gap: 20px;
+    }
+    .main-wrapper-game-content-card{
+        width: 230.67px;
+        height: 380px;
+    }
+    .game-img{
+        width: 230.67px;
+        height: 380px;
+    }
+    .card1, .card2, .card3, .card4{
+        margin-bottom: 10px;
+    }
+    .card7, .card8{
+        display: none;
+    }
 }

@@ -26,3 +26,8 @@
     color: #E4014A;
     cursor: pointer;
 }
+@media screen and (max-width: 1919px) {
+    .wrapper-nav{
+        display: none;
+    }
+}

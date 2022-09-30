@@ -1,30 +1,30 @@
-.wrapper-main-baner-1920{
+.wrapper-main-baner-1920 {
     width: 1920px;
     margin: 0 auto;
 }
-.wrapper-background-main{
+.wrapper-background-main {
     background-image: url(../../../assets/photo/heder-container/fon.png);
     width: 100%;
     height: 714px;
     position: relative;
 }
-.gradient-main{
+.gradient-main {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.imd-gradient-main{
+.imd-gradient-main {
     width: 100%;
     height: 100%;
 }
-.wrapper-main-content{
+.wrapper-main-content {
     width: 100%;
     height: 714px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.main-baner-content{
+.main-baner-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,7 +34,7 @@
     bottom: 59px;
     z-index: 2;
 }
-.main-content-wrapper-discount{
+.main-content-wrapper-discount {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,44 +49,44 @@
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'liga' off;
-    color: #E4014A;
+    color: #e4014a;
 }
-.main-content-wrapper-discount:hover{
+.main-content-wrapper-discount:hover {
     background: rgba(228, 1, 74, 0.35);
 }
-.main-content-title{
+.main-content-title {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 100%;
     font-feature-settings: 'liga' off;
-    color: #FFFFFF;
+    color: #ffffff;
     position: relative;
     top: 3px;
 }
-.main-content-subtitle{
+.main-content-subtitle {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #FFFFFF;
+    color: #ffffff;
     position: relative;
     top: -5px;
 }
-.main-content-wrapper-for-button{
+.main-content-wrapper-for-button {
     display: flex;
     justify-content: space-between;
     width: 304px;
 }
-.main-content-button{
+.main-content-button {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 145px;
     height: 54px;
-    background: #E4014A;
+    background: #e4014a;
     box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
     border-radius: 48px;
     border: none;
@@ -97,36 +97,62 @@
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'liga' off;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
 }
-.main-content-button:hover{
-    background: #EF1E61;
+.main-content-button:hover {
+    background: #ef1e61;
     box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }
-.main-content-price{
+.main-content-price {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 140%;
-    color: #FFFFFF;
+    color: #ffffff;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.main-content-old-price{
+.main-content-old-price {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     text-decoration-line: line-through;
-    color: #716BA8;
+    color: #716ba8;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 1919px) {
+    .wrapper-main-baner-1920 {
+        width: 810px;
+    }
+
+    .wrapper-background-main {
+        height: 553px;
+        background-image: url(../../../assets/photo/heder-container/fon768.png),
+            linear-gradient(
+                0deg,
+                rgba(20, 15, 54, 0.9) 16.95%,
+                rgba(20, 15, 54, 0.549) 44.05%,
+                rgba(20, 15, 54, 0) 58.25%
+            );
+    }
+    .wrapper-main-content {
+        width: 100%;
+        height: 553px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .main-content-title{
+        top: 0;
+    }
+
 }

@@ -35,3 +35,8 @@
     line-height: 100%;
     color: #FFFFFF;
 }
+@media screen and (max-width: 1919px) {
+    .main-wrapper-section-secondBaner {
+        background-image: url(../../../assets/photo/mainSecondBaner/secondBaner768.png);
+    }
+}
