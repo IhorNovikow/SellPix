@@ -73,9 +73,13 @@
 .card-content-title-h{
     margin: 0;
 }
-@media screen and (max-width: 1919px) {
+.navigation-circle-confidence{
+    display: none;
+}
+@media screen and (max-width: 1279px) {
     .main-section-confidence {
         height: 794px;
+        padding-top: 103px;
     }
     .confidence-content-cards {
         width: 732px;
@@ -108,5 +112,71 @@
     ::-webkit-scrollbar-thumb {
         border-radius: 9em;
         box-shadow: inset 1px 1px 10px #FFFFFF;
+    }
+    .confidence-content-title {
+        padding-bottom: 34px;
+    }
+    .wrappper-for-title-big-discont-h{
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+}
+@media screen and (max-width: 809px) {
+    .img-main-arrow{
+        width: 16px;
+        height: 16px;
+    }
+    .main-section-confidence {
+        height: 322px;
+        padding-top: 41px;
+    }
+    .confidence-content-title {
+        display: flex;
+        gap: 35px;
+        font-size: 24px;
+        padding-bottom: 31px;
+        line-height: 28px;
+    }
+    .navigation-circle-confidence{
+        display: flex;
+    }
+    .confidence-content-cards{
+        width: 341px;
+        height: 182px;
+    }
+    .confidence-content-card{
+        width: 341px;
+        height: 182px;
+        padding: 20px;
+        justify-content: flex-start;
+        gap: 20px;
+        border-radius: 20px;
+    }
+    .card-content{
+        height: 142px;
+        position: relative;
+        top: 4px;
+    }
+    .card-content-title {
+        width: 220px;
+        height: 27px;
+    }
+    .card-content-title-h{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .card-content-text {
+        padding-top: 4px;
+    }
+    .confidence-card2, .confidence-card3, .confidence-card4{
+        display: none;
     }
 }

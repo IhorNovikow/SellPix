@@ -1,22 +1,22 @@
-.main-section-secondBaner{
+.main-section-secondBaner {
     height: 545px;
-    background-color: #140F36;
+    background-color: #140f36;
     padding: 100px 0 100px 0;
 }
-.main-wrapper-section-secondBaner{
+.main-wrapper-section-secondBaner {
     background-image: url(../../../assets/photo/mainSecondBaner/secondBaner.png);
     width: 100%;
     height: 345px;
     border-radius: 60px;
     position: relative;
 }
-.secondBanerGradient{
+.secondBanerGradient {
     width: 100%;
     height: 100%;
     border-radius: 60px;
 }
 
-.wrapper-secondBaner-content{
+.wrapper-secondBaner-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,16 +27,47 @@
     left: 70px;
     z-index: 2;
 }
-.main-secondBaner-content-title{
+.main-secondBaner-content-title {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1279px) {
     .main-wrapper-section-secondBaner {
         background-image: url(../../../assets/photo/mainSecondBaner/secondBaner768.png);
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-section-secondBaner {
+        height: 465px;
+        background-color: #140f36;
+        padding: 60px 0 0 0;
+    }
+    .main-wrapper-section-secondBaner {
+        background-image: linear-gradient(
+                90deg,
+                rgba(20, 15, 54, 0.9) 16.95%,
+                rgba(20, 15, 54, 0.549) 44.05%,
+                rgba(20, 15, 54, 0) 58.25%
+            ),
+            url(../../../assets/photo/mainSecondBaner/secondBaner360.png);
+        border-radius: 30px;
+    }
+    .secondBanerGradient {
+        display: none;
+    }
+    .wrapper-secondBaner-content {
+        width: 234px;
+        height: 114px;
+        top: 116px;
+        left: 30px;
+    }
+    .main-secondBaner-content-title {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 7px;
     }
 }

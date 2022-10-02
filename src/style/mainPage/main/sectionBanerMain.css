@@ -131,28 +131,90 @@
 }
 @media screen and (max-width: 1919px) {
     .wrapper-main-baner-1920 {
+        width: 100vw;
+    }
+    .wrapper-background-main {
+        height: 714px;
+        background-position: -320px;
+    }
+    
+}
+@media screen and (max-width: 1279px) {
+
+    .wrapper-main-baner-1920 {
         width: 810px;
     }
-
     .wrapper-background-main {
         height: 553px;
-        background-image: url(../../../assets/photo/heder-container/fon768.png),
+        background-image:
             linear-gradient(
                 0deg,
                 rgba(20, 15, 54, 0.9) 16.95%,
                 rgba(20, 15, 54, 0.549) 44.05%,
                 rgba(20, 15, 54, 0) 58.25%
-            );
+            ),  url(../../../assets/photo/heder-container/fon768.png);
+            background-position: 0;
+    }
+    .imd-gradient-main{
+        display: none;
     }
     .wrapper-main-content {
-        width: 100%;
         height: 553px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
     }
     .main-content-title{
         top: 0;
+    }
+
+}
+@media screen and (max-width: 809px) {
+    .wrapper-main-baner-1920 {
+        width: 410px;
+        height: 620px;
+    }
+    .wrapper-background-main {
+        height: 620px;
+        background-image:
+            linear-gradient(
+                0deg,
+                rgba(20, 15, 54, 0.9) 16.95%,
+                rgba(20, 15, 54, 0.549) 44.05%,
+                rgba(20, 15, 54, 0) 58.25%
+            ),  url(../../../assets/photo/heder-container/fon360.png);
+    }
+    .wrapper-main-content {
+        align-items: flex-start;
+    }
+    .main-baner-content {
+        justify-content: flex-start;
+        position: absolute;
+        top: 350px;
+        left: 35px;
+    }
+    .main-content-wrapper-discount{
+        margin-bottom: 19px;
+    }
+    .main-content-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .main-content-subtitle {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .main-content-wrapper-for-button{
+        width: 234px;
+    }
+    .main-content-button {
+        width: 115px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-content-price{
+        font-size: 16px;
+    }
+    .main-content-old-price{
+        font-size: 14px;
     }
 
 }

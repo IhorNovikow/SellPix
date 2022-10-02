@@ -1,5 +1,5 @@
 html{
-    background: #140F36;
+    background: #19143E;
     width: 1920px;
     margin: 0 auto;
 }
@@ -18,5 +18,37 @@ html{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-
+@media screen and (max-width: 1919px) {
+    html{
+        width: 1279px;
+    }
+    .wrapper{
+        width: 1220px;
+    }
+    .hr-line{
+        width: 1279px;
+    }
+}
+@media screen and (max-width: 1279px) {
+    html{
+        width: 810px;
+    }
+    .wrapper{
+        width: 732px;
+    }
+    .hr-line{
+        width: 810px;
+    }
+}
+@media screen and (max-width: 809px) {
+    html{
+        width: 410px;
+    }
+    .wrapper{
+        width: 340px;
+    }
+    .hr-line{
+        width: 410px;
+    }
+}
 

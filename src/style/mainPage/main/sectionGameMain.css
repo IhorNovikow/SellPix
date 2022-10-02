@@ -166,7 +166,7 @@
     border-radius: 0 39px 39px 0;
 }
 
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1279px) {
     .main-wrapper-game-content{
         width: 732px;
     }
@@ -185,6 +185,71 @@
         margin-bottom: 10px;
     }
     .card7, .card8{
+        display: none;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-section-game {
+        height: 710px;
+        padding-top: 60px;
+    }
+    .main-wrapper-game-content {
+        width: 341px;
+    }
+    .wrappper-for-title {
+        font-size: 25px;
+        height: 28px;
+        gap: 7px;
+    }
+    .main-wrapper-game-navigation{
+        width: 80px;
+        height: 30px;
+    }
+    .navigation-circle{
+        width: 30px;
+        height: 30px;
+    }
+    .main-wrapper-game-content-genre{
+        width: 340px;
+        overflow-x: scroll;
+    }
+    .main-wrapper-game-content-genre-button {
+        height: 60px;
+        gap: 15px;
+        justify-content: start;
+        padding-top: 0;
+    }
+    .btn-genre{
+        font-size: 14px;
+    }
+    .main-wrapper-game-content-cards{
+        width: 346px;
+    }
+    .main-wrapper-game-content-card {
+        width: 163px;
+        height: 220px;
+    }
+    .game-img {
+        width: 163px;
+        height: 220px;
+    }
+    .wrapper-seill-discont {
+        width: 127px;
+        height: 30px;
+        right: 18px;
+        bottom: 15px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .wrapper-seill {
+        width: 66px;
+        height: 30px;
+    }
+    .wrapper-discont {
+        height: 30px;
+    }
+    .card5, .card6{
         display: none;
     }
 }
