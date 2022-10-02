@@ -21,6 +21,7 @@
     line-height: 24px;
     color: #716BA8;
     height: 34px;
+    cursor: pointer;
 }
 .title-description-active{
     color: #FFFFFF;

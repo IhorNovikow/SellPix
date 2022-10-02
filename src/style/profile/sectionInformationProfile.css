@@ -110,6 +110,9 @@
     border: 1px solid #E4014A;
     border-radius: 100px;
 }
+.wrapper-discont-percent:hover{
+    background: rgba(228, 1, 74, 0.35);
+}
 .wrapper-discont{
     width: 282px;
     height: 53px;

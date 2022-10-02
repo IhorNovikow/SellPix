@@ -5,6 +5,7 @@
   height: 324px;
   background: #19143E;
   border-radius: 30px;
+  cursor: pointer;
 }
 .li-navigation-box-start{
   border-radius: 30px 30px 0 0;
@@ -25,8 +26,14 @@
   font-feature-settings: 'liga' off;
   color: #FFFFFF;
 }
+.li-navigation-box:hover{
+  color: #E4014A;
+}
 .li-navigation-box-active{
   background: #E4014A;
+}
+.li-navigation-box-active:hover{
+  color: #FFFFFF;
 }
 .icon-navigation-box{
   width: 20px;
