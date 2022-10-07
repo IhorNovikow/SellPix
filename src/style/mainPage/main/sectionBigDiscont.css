@@ -49,36 +49,4 @@
         line-height: 100%;
         color: #FFFFFF;
     }
-
 }
-
-
-/*
-@media screen and (max-width: 809px) {
-    .main-section-big-discont {
-        height: 650px;
-        padding-top: 60px;
-    }
-    .discont-img-title-forward{
-        display: none;
-    }
-    .main-wrapper-game-content-title{
-        padding-bottom: 30px;
-    }
-    .wrappper-for-title-big-discont{
-        width: 230px;
-        height: 28px;
-    }
-    .wrappper-for-title-big-discont-h{
-        font-family: 'Bebas Neue';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 100%;
-        color: #FFFFFF;
-    }
-    .wrappper-for-title-big-discont{
-        padding-bottom: 0;
-    }
-}
-*/
