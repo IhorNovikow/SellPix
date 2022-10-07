@@ -6,6 +6,7 @@
 .main-wrapper-blog-content-title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
@@ -19,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 466px;
     height: 50px;
 }
 
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .section-blog-wrapper-card {
     width: 386px;
@@ -39,7 +40,6 @@
     justify-content: center;
     cursor: pointer;
 }
-
 .background-box {
     position: absolute;
     width: 386px;
@@ -54,6 +54,8 @@
         ),
         url(../../../assets/photo/mainSectionBlog/cardBlog01.png);
     background-repeat: no-repeat;
+    border-radius: 30px;
+    background-position: center;
 }
 
 .section-blog-wrapper-card:hover .background-box {
@@ -129,13 +131,123 @@
     background: #ef1e61;
     box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1220px) {
+    .section-blog-wrapper-card{
+        width: 356px;
+        height: 330px;
+    }
+    .background-box {
+        width: 356px;
+        height: 330px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 23.78%,
+            rgba(20, 15, 54, 0) 45.15%
+        ),
+        url(../../../assets/photo/mainSectionBlog/cardBlog01_768.png);
+    }
+
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 380px 353px;
+        width: 380px;
+        height: 340px;
+        top: -10px;
+        left: -12px;
+    }
+}
+@media screen and (max-width: 1138px) {
+    .blog-card3{
+        display: none;
+    }    
+    .section-blog-wrapper-cards{
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-section-blog {
+        height: 390px;
+        background-color: #140f36;
+        padding: 0 0 0 0;
+    }
+
+    .section-blog-wrapper-cards {
+        height: 250px;
+        align-items: start;
+    }
+
+    .main-wrapper-blog-content-title{
+        margin-bottom: 30px;
+    }
+    .wrappper-for-title-blog{
+        height: 28px;
+    }
+    .wrappper-for-title-blog-h{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .section-blog-wrapper-card{
+        width: 341px;
+        height: 210px;
+    }
+    .background-box {
+        width: 341px;
+        height: 210px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 23.78%,
+            rgba(20, 15, 54, 0) 45.15%
+        ),
+        url(../../../assets/photo/mainSectionBlog/cardBlog01_368.png);
+    }
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 365px 225px;
+        width: 365px;
+        height: 225px;
+        top: -12px;
+        left: -14px;
+    }
+    .blog-wrapper-card-content {
+        padding: 30px 0 0 20px;
+    }
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 365px 225px;
+        width: 365px;
+        height: 225px;
+        top: -12px;
+        left: -14px;
+    }
+    .button-blog-see-all{
+        width: 140px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+}
+@media screen and (max-width: 771px) {
+    .main-section-blog {
+        height: 643px;
+        background-color: #140f36;
+        padding: 0 0 0 0;
+    }
+    .section-blog-wrapper-cards{
+        height: 450px;
+        margin-bottom: 30px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 0px) {
     .blog-card3 {
         display: none;
     }
     .section-blog-wrapper-card {
-        width: 356px;
-        height: 330px;
+        border: 1px solid red;
     }
     .background-box {
         width: 356px;
@@ -147,7 +259,7 @@
 
     }
 }
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 0px) {
     .main-section-blog {
         height: 640px;
         background-color: #140f36;

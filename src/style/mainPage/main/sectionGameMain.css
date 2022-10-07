@@ -102,6 +102,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 .main-wrapper-game-content-card{
     width: 282px;
@@ -165,27 +166,21 @@
     background: #FFFFFF;
     border-radius: 0 39px 39px 0;
 }
-
-@media screen and (max-width: 1279px) {
-    .main-wrapper-game-content{
-        width: 732px;
+@media screen and (max-width: 1220px) {
+    .card7, .card8{
+        display: none;
     }
-    .main-wrapper-game-content-cards {
-        gap: 20px;
+}
+@media screen and (max-width: 983px) {
+    .main-section-game {
+        height: 990px;
     }
     .main-wrapper-game-content-card{
         width: 230.67px;
-        height: 380px;
+        height: 310px;
     }
-    .game-img{
-        width: 230.67px;
-        height: 380px;
-    }
-    .card1, .card2, .card3, .card4{
-        margin-bottom: 10px;
-    }
-    .card7, .card8{
-        display: none;
+    .main-wrapper-game-content-cards {
+        gap: 20px;
     }
 }
 @media screen and (max-width: 809px) {
@@ -193,8 +188,8 @@
         height: 710px;
         padding-top: 60px;
     }
-    .main-wrapper-game-content {
-        width: 341px;
+    .main-wrapper-game-content-title{
+        margin-bottom: 30px;
     }
     .wrappper-for-title {
         font-size: 25px;
@@ -210,7 +205,6 @@
         height: 30px;
     }
     .main-wrapper-game-content-genre{
-        width: 340px;
         overflow-x: scroll;
     }
     .main-wrapper-game-content-genre-button {
@@ -223,11 +217,12 @@
         font-size: 14px;
     }
     .main-wrapper-game-content-cards{
-        width: 346px;
+        max-width: 711px;
     }
     .main-wrapper-game-content-card {
         width: 163px;
         height: 220px;
+        margin-bottom: 10px;
     }
     .game-img {
         width: 163px;
@@ -249,7 +244,16 @@
     .wrapper-discont {
         height: 30px;
     }
+
+}
+@media screen and (max-width: 598px) {
     .card5, .card6{
         display: none;
     }
 }
+@media screen and (max-width: 423px) {
+    .main-wrapper-game-content-cards {
+        gap: 10px;
+    }
+}
+

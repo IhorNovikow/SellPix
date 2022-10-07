@@ -3,8 +3,17 @@
     margin: 0 auto;
 }
 .wrapper-background-main {
-    background-image: url(../../../assets/photo/heder-container/fon.png);
-    width: 100%;
+    background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.9) 16.95%,
+            rgba(20, 15, 54, 0.549) 44.05%,
+            rgba(20, 15, 54, 0) 58.25%
+        ),
+        url(../../../assets/photo/heder-container/fon.png);
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
     height: 714px;
     position: relative;
 }
@@ -13,12 +22,10 @@
     width: 100%;
     height: 100%;
 }
-.imd-gradient-main {
-    width: 100%;
-    height: 100%;
-}
+
 .wrapper-main-content {
-    width: 100%;
+    position: absolute;
+    width: 80%;
     height: 714px;
     display: flex;
     justify-content: space-between;
@@ -129,57 +136,35 @@
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 1919px) {
-    .wrapper-main-baner-1920 {
-        width: 100vw;
-    }
-    .wrapper-background-main {
-        height: 714px;
-        background-position: -320px;
-    }
-    
-}
-@media screen and (max-width: 1279px) {
-
-    .wrapper-main-baner-1920 {
-        width: 810px;
-    }
+@media screen and (max-width: 811px) {
     .wrapper-background-main {
         height: 553px;
-        background-image:
-            linear-gradient(
+        background-image: linear-gradient(
                 0deg,
                 rgba(20, 15, 54, 0.9) 16.95%,
                 rgba(20, 15, 54, 0.549) 44.05%,
                 rgba(20, 15, 54, 0) 58.25%
-            ),  url(../../../assets/photo/heder-container/fon768.png);
-            background-position: 0;
-    }
-    .imd-gradient-main{
-        display: none;
+            ),
+            url(../../../assets/photo/heder-container/fon768.png);
     }
     .wrapper-main-content {
         height: 553px;
     }
-    .main-content-title{
+    .main-content-title {
         top: 0;
     }
-
 }
-@media screen and (max-width: 809px) {
-    .wrapper-main-baner-1920 {
-        width: 410px;
-        height: 620px;
-    }
+@media screen and (max-width: 530px) {
     .wrapper-background-main {
         height: 620px;
-        background-image:
-            linear-gradient(
+        background-image: linear-gradient(
                 0deg,
                 rgba(20, 15, 54, 0.9) 16.95%,
                 rgba(20, 15, 54, 0.549) 44.05%,
                 rgba(20, 15, 54, 0) 58.25%
-            ),  url(../../../assets/photo/heder-container/fon360.png);
+            ),
+            url(../../../assets/photo/heder-container/fon768.png);
+            background-size:cover;
     }
     .wrapper-main-content {
         align-items: flex-start;
@@ -188,9 +173,9 @@
         justify-content: flex-start;
         position: absolute;
         top: 350px;
-        left: 35px;
+        left: -4px;
     }
-    .main-content-wrapper-discount{
+    .main-content-wrapper-discount {
         margin-bottom: 19px;
     }
     .main-content-title {
@@ -201,7 +186,7 @@
         font-size: 14px;
         margin-bottom: 16px;
     }
-    .main-content-wrapper-for-button{
+    .main-content-wrapper-for-button {
         width: 234px;
     }
     .main-content-button {
@@ -210,11 +195,10 @@
         font-size: 14px;
         line-height: 21px;
     }
-    .main-content-price{
+    .main-content-price {
         font-size: 16px;
     }
-    .main-content-old-price{
+    .main-content-old-price {
         font-size: 14px;
     }
-
 }

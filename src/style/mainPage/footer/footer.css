@@ -13,8 +13,8 @@
     padding: 40px 0 40px 0;
 }
 .wrapper-footer-logo{
-    width: 90px;
-    height: 43px;
+    width: 124px;
+    height: 52px;
 }
 .footer-logo{
     width: 100%;
@@ -76,19 +76,75 @@
     border: none;
     border-bottom: 0.5px solid #FFFFFF;
     opacity: 0.08;
-    width: 1920px;
+    width: 100vw;
     position: absolute;
     bottom: 104px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 1919px) {
-    .footer-hr-line {
-        width: 100vw;
 
+@media screen and (max-width: 720px) {
+    .footer-dop-inf {
+        flex-wrap: wrap;
+        padding: 30px 0 0 0;
     }
 }
+@media screen and (max-width: 720px) {
+    .footer{
+        height: 435px;
+        justify-content: space-between;
+    }
+    .footer-dop-inf {
+        width: 100vw;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .wrapper-footer-logo {
+        width: 100vw;
+        height: 52px;
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        width: 124px;
+        height: 52px;
+    }
+    .colum-footer-content{
+        margin-right: 20px;
+    }
+    
+}
+@media screen and (max-width: 528px) {
+    .footer{
+        height: 340px;
+    }
+
+    .colum-footer-content{
+        margin-bottom: 30px;
+    }
+    .title-footer-content {
+        font-size: 16px;
+    }
+    .point-footer-list {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .list-footer-buyer, .colum-footer-content{
+        gap: 10px;
+    }
+    .footer-hr-line{
+        bottom: 64px;
+    }
+    .protection-of-rights {
+        height: 64px;
+    }
+}
+@media screen and (max-width: 493px) {
+    .footer{
+        height: 428px;
+    }
+}
+/*
 @media screen and (max-width: 809px) {
     .footer{
         height: 428px;
@@ -111,10 +167,12 @@
     .title-footer-content {
         font-size: 16px;
     }
+
     .wrapper-footer-buyer{
         margin-right: 52px;
         margin-bottom: 33px;
     }
+
     .point-footer-list {
         font-size: 14px;
         line-height: 21px;
@@ -131,3 +189,4 @@
         height: 24px;
     }
 }
+*/
