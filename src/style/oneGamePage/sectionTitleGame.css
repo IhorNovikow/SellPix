@@ -28,3 +28,15 @@
 .saveToFavorits{
     margin-top: 8px;
 }
+@media screen and (max-width: 1220px) {
+    .title-game-1920 {
+        width: 100%;
+        max-width: 857px;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .title-game {
+        padding-bottom: 0px;
+    }
+}

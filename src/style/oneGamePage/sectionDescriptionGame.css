@@ -8,7 +8,10 @@
 }
 .wrapper-title-description-section{
     height: 64px;
-    padding: 30px 0 0 30px;
+    padding: 30px 30px 0 30px;
+}
+.wrapper-for-scroll{
+    width: 400px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -28,11 +31,87 @@
     border-bottom: 2px solid #E4014A;
 }
 .content-description-game{
-    padding: 30px;
+    margin: 30px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    overflow-y: auto;
+}
+.wrapper-description-game1220{
+    display: none;
+}
+@media screen and (max-width: 1220px) {
+    .description-game {
+        width: 100%;
+        max-width: 857px;
+        height: auto;
+        min-height: 293px;
+        max-height: 317px;
+    }
+    .wrapper-description-game1220{
+        display: block;
+        width: 100%;
+        max-width: 857px;
+    }
+
+}
+@media screen and (max-width: 745px) {
+    .description-game {
+        width: 100%;
+        height: auto;
+        max-height: 364px;
+    }
+    .title-line-discription, .discription-title-line-discription {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .wrapper-title-description-section {
+        height: 50px;
+        padding: 20px 20px 0 20px;
+    }
+    .wrapper-description-game {
+        padding: 20px;
+        height: 266px;
+    }
+    .content-description-game {
+        margin: 20px;
+        font-size: 14px;
+        line-height: 21px;
+        max-height: 270px;
+    }
+
+}
+@media screen and (max-width: 692px) {
+    .description-game {
+        border-radius: 20px;
+    }
+    .wrapper-description-game {
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 462px) {
+    .wrapper-title-description-section{
+        overflow-x: scroll;
+    }
+
+    .title-descrioption1{
+        width: 78px;
+    }
+    .title-descrioption2{
+        width: 178px;
+    }    
+    .title-descrioption3{
+        width: 78px;
+    }
+    .title-descrioption{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        height: 30px;
+        cursor: pointer;
+    }
+
 }

@@ -1,9 +1,18 @@
-.carousel-about-game{
+.wrapper-carusel-scroll{
     position: relative;
+}
+.carousel-about-game{
+    overflow-x: auto;
+    max-width: 801px;
 }
 .wrapper-full-item{
     display: flex;
     gap: 20px;
+    width: 1024px;
+}
+.wrapper-one-item{
+    width: 328px;
+    height: 184px;
 }
 .wrapper-button-next-item{
     position: absolute;
@@ -22,4 +31,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 1220px) {
+    .wrapper-carusel-scroll{
+        width: 100%;
+        max-width: 857px;
+    }
+    .carousel-about-game{
+        width: 100%;
+        max-width: 857px;
+    }
+}
+@media screen and (max-width: 745px) {
+    .wrapper-full-item{
+        width: 676px;
+    }
+    .wrapper-one-item{
+        width: 212px;
+        height: 119px;
+    }
+    .wrapper-button-next-item {
+        top: 39px;
+    }
 }
