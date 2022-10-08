@@ -73,6 +73,15 @@ select {
 input:focus {
   outline: none;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #211946;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #FFFFFF;
+}
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
