@@ -1,9 +1,26 @@
-.main-wrapper-way{
+.main-wrapper-way {
     margin-bottom: 15px;
 }
-.wrappper-for-title{
+.wrappper-for-title {
     margin-bottom: 40px;
 }
-.gray-color{
-    color: #716BA8;
+.gray-color {
+    color: #716ba8;
+}
+@media screen and (max-width: 1220px) {
+    .favorits-game-card13,
+    .favorits-game-card14,
+    .favorits-game-card15,
+    .favorits-game-card16 {
+        display: none;
+    }
+}
+@media screen and (max-width: 598px) {
+    .favorits-game-card9,
+    .favorits-game-card10,
+    .favorits-game-card11,
+    .favorits-game-card12 {
+        display: none;
+    }
+
 }

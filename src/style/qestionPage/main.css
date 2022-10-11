@@ -1,41 +1,42 @@
-.main{
+.main {
     padding: 60px 0 100px 0;
+    background: #140f36;
 }
-.wrapper-content-qestion{
+.wrapper-content-qestion {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.main-wrapper-title{
+.main-wrapper-title {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
-.main-wrapper-way{
+.main-wrapper-way {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #716BA8;
+    color: #716ba8;
 }
-.title-game-h{
+.title-game-h {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 43px;
     line-height: 50px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.description-question-page{
+.description-question-page {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #716BA8;
+    color: #716ba8;
 }
-.wrapper-qestion-and-answer{
+.wrapper-qestion-and-answer {
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -44,10 +45,10 @@
     width: 1218px;
     height: 234px;
 
-    background: #19143E;
+    background: #19143e;
     border-radius: 20px;
 }
-.wrapper-qestion{
+.wrapper-qestion {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -57,11 +58,11 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
 
     position: relative;
 }
-.wrapper-icon-qestion{
+.wrapper-icon-qestion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,36 +73,35 @@
     border-radius: 30px;
 }
 
-.icon-open{
+.icon-open {
     position: absolute;
     right: 5px;
     top: 20px;
     width: 20px;
     height: 20px;
 }
-.icon-close{
+.icon-close {
     transform: rotate(180deg);
 }
-.hr-qestion{
+.hr-qestion {
     border: none;
     background: rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     width: 1158px;
-
 }
-.wrapper-answer{
+.wrapper-answer {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.wrapper-qestion-solo{
+.wrapper-qestion-solo {
     padding: 30px;
     width: 1218px;
     height: 121px;
-    background: #19143E;
+    background: #19143e;
     border-radius: 20px;
 
     font-family: 'Bebas Neue';
@@ -109,9 +109,9 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.wrapper-qestion-solo-box{
+.wrapper-qestion-solo-box {
     position: relative;
     display: flex;
     align-items: center;
@@ -119,4 +119,51 @@
     gap: 20px;
     height: 100%;
     cursor: pointer;
+}
+@media screen and (max-width: 1220px) {
+    .wrapper-qestion-and-answer {
+        width: 100%;
+        min-height: 234px;
+        height: auto;
+    }
+    .hr-qestion {
+        width: 100%;
+    }
+    .wrapper-qestion-solo {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main {
+        padding: 40px 0 60px 0;
+    }
+    .main-wrapper-way,
+    .description-question-page {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .box-title {
+        font-size: 14px;
+        line-height: 21px;
+        width: 70%;
+    }
+    .wrapper-answer{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .title-game-h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .wrapper-content-qestion {
+        gap: 20px;
+    }
+    .wrapper-qestion-and-answer {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .box-title {
+        width: 60%;
+    }
 }

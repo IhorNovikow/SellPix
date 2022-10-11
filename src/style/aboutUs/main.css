@@ -1,10 +1,13 @@
+.main {
+    background: #140f36;
+}
 .wrapper-baner-about-us{
     background: #19143E;
-    width: 1920px;
     height: 493px;
     border-top: 1px solid rgb(255, 255, 255, 0.08);
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-bottom: 40px;
 
 }
@@ -101,4 +104,95 @@
 }
 .confidence-content-card {
     background: #19143E;
+}
+@media screen and (max-width: 1220px) {
+    .section-statistick-reviews {
+        width: 100%;
+        overflow: auto;
+    }
+    .wrapper-content-baner-about-us {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .wrapper-baner-about-us{
+        height: 386px;
+    }
+    .Photo-shop-img{
+        display: none;
+    }
+    .wrapper-content-baner-about-us{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .main-wrapper-title {
+        margin-top: 83px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .wrapper-baner-about-us {
+        height: 319px;
+        margin-bottom: 30px;
+    }
+    .main-wrapper-title {
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .main-wrapper-way, .title-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .title-description {
+        width: auto;
+    }
+    .title-game-h {
+        margin-bottom: 10px;
+    }
+    .title-game-h2{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .section-statistick-reviews, .wrapper-statistick-block{
+        height: 124px;
+    }
+    .number-review{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .description-review{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-section-confidence {
+        height: 363px;
+        padding-top: 61px;
+    }
+    .about-us-card3, .about-us-card4{
+        display: none;
+    }
+    .navigation-circle-confidence{
+        width: 80px;
+        height: 30px;
+        justify-content: space-between;
+    }
+    .navigation-circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .back{
+        transform: rotate(180deg);
+    }
+}
+@media screen and (max-width: 781px) {
+    .about-us-card2{
+        display: none;
+    }
 }

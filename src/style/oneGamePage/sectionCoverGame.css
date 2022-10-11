@@ -1,8 +1,4 @@
-.main-wrapper-first-colum{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+
 .wrapper-description-game{
     width: 386px;
     height: 311px;

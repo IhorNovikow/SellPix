@@ -1,29 +1,37 @@
-.main{
+.main-one-news{
     margin-bottom: -100px;
+    background: #140f36;
 }
-.section-news-baner{
-    background: url(../../assets/photo/oneNews/backgroundBaner.png);
+.section-news-baner {
+    background: linear-gradient(
+        0deg,
+        #140f36 0%,
+        rgba(20, 15, 54, 0.65) 42.12%,
+        rgba(20, 15, 54, 0) 62.43%),
+        url(../../assets/photo/oneNews/backgroundBaner.png);
     position: relative;
-    width: 1920px;
+    max-width: 1920px;
     height: 515px;
+    margin: 0 auto;
+    background-position: center;
 }
-.mainGradient{
+.mainGradient {
     width: 100%;
     height: 100%;
 }
-.section-news-content{
+.section-news-content {
     width: 802px;
     margin: 0 auto;
     position: relative;
     top: -200px;
 }
-.wrapper-news-content-title{
+.wrapper-news-content-title {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-bottom: 53px;
 }
-.wrapper-way{
+.wrapper-way {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -33,14 +41,14 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
-    color: #716BA8;
+    color: #716ba8;
 }
-.icon-back{
+.icon-back {
     width: 24px;
     height: 24px;
     transform: rotate(90deg);
 }
-.wrapper-infomation-stats-news{
+.wrapper-infomation-stats-news {
     margin-top: 1px;
     display: flex;
     align-items: center;
@@ -50,42 +58,76 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.icon-stats-news{
+.icon-stats-news {
     width: 24px;
     height: 24px;
     margin-right: 10px;
 }
-.stats-news-time, .count-view{
+.stats-news-time,
+.count-view {
     margin-right: 20px;
 }
-.wrapper-title-news{
+.wrapper-title-news {
     margin-top: -1px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.wrapper-news-main-content{
+.wrapper-news-main-content {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.subtitle-news{
+.subtitle-news {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+@media screen and (max-width: 1220px) {
+    .section-news-content {
+        width: calc(100% - 78px);
+    }
+}
+@media screen and (max-width: 809px) {
+    .section-news-content {
+        top: -131px;
+    }
+    .section-news-baner{
+        height: 356px;
+    }
+    .wrapper-news-content-title {
+        margin-bottom: 33px;
+    }
+    .icon-back {
+        width: 21px;
+        height: 21px;
+    }
+    .wrapper-way {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .wrapper-title-news{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .wrapper-news-main-content {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
 }

@@ -23,6 +23,11 @@
     height: 24px;
     transform: rotate(-90deg);
 }
+@media screen and (max-width: 983px) {
+    .main-section-big-discont{
+        height: 920px;
+    }
+}
 @media screen and (max-width: 809px) {
     .main-section-big-discont {
         height: 650px;
@@ -31,12 +36,10 @@
     .discont-img-title-forward{
         display: none;
     }
-    .main-wrapper-game-content-title{
-        padding-bottom: 30px;
-    }
     .wrappper-for-title-big-discont{
-        width: 230px;
+        width: 255px;
         height: 28px;
+        padding-bottom: 0px;
     }
     .wrappper-for-title-big-discont-h{
         font-family: 'Bebas Neue';
@@ -46,8 +49,4 @@
         line-height: 100%;
         color: #FFFFFF;
     }
-    .wrappper-for-title-big-discont{
-        padding-bottom: 0;
-    }
 }
-

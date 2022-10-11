@@ -1,54 +1,28 @@
 html{
+    width: 100vw;
+    margin: 0 auto;
+}
+body{
     background: #19143E;
-    width: 1920px;
     margin: 0 auto;
 }
 .wrapper{
-    width: 1220px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 .hr-line{
     border:  none;
     border-bottom: .5px solid #FFFFFF;
     opacity: .08;
-    width: 1920px;
+    width: 100vw;
     position: absolute;
     top: 113px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 1919px) {
-    html{
-        width: 1279px;
-    }
+@media screen and (max-width: 1220px) {
     .wrapper{
-        width: 1220px;
-    }
-    .hr-line{
-        width: 1279px;
+        margin: 0 35px 0 35px;
     }
 }
-@media screen and (max-width: 1279px) {
-    html{
-        width: 810px;
-    }
-    .wrapper{
-        width: 732px;
-    }
-    .hr-line{
-        width: 810px;
-    }
-}
-@media screen and (max-width: 809px) {
-    html{
-        width: 410px;
-    }
-    .wrapper{
-        width: 340px;
-    }
-    .hr-line{
-        width: 410px;
-    }
-}
-
