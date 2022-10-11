@@ -1,3 +1,7 @@
+.main-sale {
+    background: #140f36;
+    padding-bottom: 70px;
+}
 .wrapper-baner-about-us {
     margin-bottom: 70px;
 }
@@ -6,7 +10,7 @@
     flex-direction: column;
     margin-top: 90px;
 }
-.title-description{
+.title-description {
     margin-bottom: 15px;
 }
 .Photo-shop-img {
@@ -15,7 +19,7 @@
     width: 516px;
     height: 424px;
 }
-.wrapper-count-discont{
+.wrapper-count-discont {
     display: flex;
     align-items: center;
     width: 356px;
@@ -24,7 +28,7 @@
     background: #211946;
     border-radius: 30px;
 }
-.wrapper-count-content{
+.wrapper-count-content {
     width: 50%;
     height: 100%;
     display: flex;
@@ -33,24 +37,25 @@
     align-items: center;
     border-right: 1px solid rgb(255, 255, 255, 0.08);
 }
-.count-content-title{
+.count-content-title {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 8px;
 }
-.count-content-subtitle, .discont-content-subtitle{
+.count-content-subtitle,
+.discont-content-subtitle {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #716BA8;
+    color: #716ba8;
 }
-.wrapper-discont-content{
+.wrapper-discont-content {
     height: 100%;
     width: 50%;
     display: flex;
@@ -58,28 +63,27 @@
     justify-content: center;
     align-items: center;
 }
-.discont-content-title{
+.discont-content-title {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
-    color: #E4014A;
+    color: #e4014a;
     margin-bottom: 8px;
 }
-.section-table-discont{
-    background: #19143E;
+.section-table-discont {
+    background: #19143e;
     width: 1218px;
     height: 224px;
     border-radius: 30px;
-    margin-bottom: 70px;
 }
-.section-table-discont-first-line{
+.section-table-discont-first-line {
     width: 100%;
     height: 50%;
     display: flex;
 }
-.first-line-box{
+.first-line-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,42 +94,42 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
-    color: #FFFFFF;
-    border-bottom: 1px solid rgb(255, 255, 255, 0.08)
+    color: #ffffff;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.08);
 }
-.first-line-box-title{
+.first-line-box-title {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     font-feature-settings: 'liga' off;
-    color: #716BA8;
+    color: #716ba8;
     background: #211946;
     border-radius: 30px 0 0 0;
 }
-.margin-min{
+.margin-min {
     margin-top: 9px;
 }
-.section-table-discont-second-line{
+.section-table-discont-second-line {
     display: flex;
     width: 100%;
     height: 50%;
 }
-.second-line-box{
+.second-line-box {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 150%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #E4014A;
+    color: #e4014a;
     width: 12.5%;
 }
-.second-line-box-title{
+.second-line-box-title {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 500;
@@ -135,14 +139,67 @@
     align-items: center;
     text-align: center;
     font-feature-settings: 'liga' off;
-    color: #716BA8;
+    color: #716ba8;
     background: #211946;
     border-radius: 0 0 0 30px;
 }
-.margin-pl{
+.margin-pl {
     margin-top: -10px;
 }
-.box-active{
-    background: #E4014A;
-    color: #FFFFFF;
+.box-active {
+    background: #e4014a;
+    color: #ffffff;
+}
+@media screen and (max-width: 1280px) {
+    .section-table-discont {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .section-table-discont-first-line,
+    .section-table-discont-second-line {
+        width: 1218px;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .wrapper-baner-about-us {
+        height: 430px;
+    }
+    .main-wrapper-title {
+        margin-top: 83px;
+    }
+    .wrapper-baner-about-us {
+        margin-bottom: 100px;
+    }
+    .main-sale {
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .wrapper-baner-about-us {
+        height: auto;
+        padding: 20px 0 20px 0;
+        margin-bottom: 60px;
+    }
+    .main-wrapper-title {
+        margin-top: 0px;
+    }
+    .main-wrapper-way {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .wrapper-count-discont {
+        width: 301px;
+        border-radius: 20px;
+    }
+    .first-line-box, .second-line-box{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .section-table-discont {
+        height: 133px;
+    }
+    .section-table-discont-first-line,
+    .section-table-discont-second-line {
+        width: 960px;
+    }
 }
