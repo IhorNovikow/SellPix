@@ -1,3 +1,7 @@
+.main-cooperation{
+    background: #140f36;
+    padding-bottom: 100px;
+}
 .Photo-shop-img {
     margin-top: 71px;
     margin-left: -32px;
@@ -49,7 +53,6 @@
 
     background: #19143E;
     border-radius: 30px;
-    margin-bottom: 100px;
 }
 .form-title{
     font-family: 'Bebas Neue';
@@ -71,7 +74,6 @@
 .input-box-content{
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
 }
 .input-box-name-company, .input-box-name-mail{
     display: flex;
@@ -135,4 +137,74 @@
 .btn-write-request:hover{
     background: #EF1E61;
     box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
+}
+@media screen and (max-width: 1220px) {
+    .section-question-form {
+        width: 100%;
+        height: auto;
+    }
+    .input-box-name-company, .input-box-name-mail{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1029px){
+    .main-wrapper-title {
+        margin-top: 83px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .wrapper-baner-about-us{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-cooperation {
+        padding-bottom: 60px;
+    }
+    .wrapper-baner-about-us{
+        height: 319px;
+    }
+    .main-wrapper-title {
+        margin-top: 40px;
+    }
+    .cooperation-card3, .cooperation-card4{
+        display: none;
+    }
+    .section-question-form {
+        padding: 30px;
+        gap: 30px;
+        height: 368px;
+        border-radius: 20px;
+    }
+    .form-title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .form-subtitle{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .input-box-content {
+        flex-direction: column;
+    }
+    .input-box-name-company, .input-box-name-mail{
+        font-size: 14px;
+        line-height: 21px;
+        height: 40px;
+    }
+    .input-box-name-company::placeholder, .input-box-name-mail::placeholder{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .btn-write-request{
+        width: 179px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 781px) {
+    .cooperation-card2{
+        display: none;
+    }
 }
