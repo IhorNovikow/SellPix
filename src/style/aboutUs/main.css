@@ -1,0 +1,198 @@
+.main {
+    background: #140f36;
+}
+.wrapper-baner-about-us{
+    background: #19143E;
+    height: 493px;
+    border-top: 1px solid rgb(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+.wrapper-content-baner-about-us{
+    display: flex;
+    width: 972px;
+    gap: 98px;
+    margin-left: -37px;
+}
+.main-wrapper-title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+}
+.main-wrapper-way{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+    margin-bottom: 9px;
+}
+.title-game-h{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-left: -1px;
+}
+.title-description{
+    width: 563px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.Photo-shop-img{
+    margin-top: 54px;
+    margin-left: -32px; 
+    width: 372px;
+    height: 415px;
+}
+.red-word{
+    color: #E4014A;
+}
+
+.section-statistick-reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 57px;
+
+    width: 1218px;
+    height: 160px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-statistick-block{
+    width: 210px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.number-review{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #E4014A;
+}
+.description-review{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.main-section-confidence{
+    background: none;
+}
+.confidence-content-card {
+    background: #19143E;
+}
+@media screen and (max-width: 1220px) {
+    .section-statistick-reviews {
+        width: 100%;
+        overflow: auto;
+    }
+    .wrapper-content-baner-about-us {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .wrapper-baner-about-us{
+        height: 386px;
+    }
+    .Photo-shop-img{
+        display: none;
+    }
+    .wrapper-content-baner-about-us{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .main-wrapper-title {
+        margin-top: 83px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .wrapper-baner-about-us {
+        height: 319px;
+        margin-bottom: 30px;
+    }
+    .main-wrapper-title {
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .main-wrapper-way, .title-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .title-description {
+        width: auto;
+    }
+    .title-game-h {
+        margin-bottom: 10px;
+    }
+    .title-game-h2{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .section-statistick-reviews, .wrapper-statistick-block{
+        height: 124px;
+    }
+    .number-review{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .description-review{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-section-confidence {
+        height: 363px;
+        padding-top: 61px;
+    }
+    .about-us-card3, .about-us-card4{
+        display: none;
+    }
+    .navigation-circle-confidence{
+        width: 80px;
+        height: 30px;
+        justify-content: space-between;
+    }
+    .navigation-circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .back{
+        transform: rotate(180deg);
+    }
+}
+@media screen and (max-width: 781px) {
+    .about-us-card2{
+        display: none;
+    }
+}

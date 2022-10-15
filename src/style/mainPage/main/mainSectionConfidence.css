@@ -1,0 +1,180 @@
+.main-section-confidence{
+    height: 746px;
+    background-color: #19143E;
+    padding-top: 100px;
+}
+.confidence-content-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-bottom: 37px;
+}
+.red{
+   color: #E4014A
+}
+.confidence-content-cards{
+    max-width: 1220px;
+    height: 466px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.confidence-content-card{
+    width: 594px;
+    height: 218px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background: #211946;
+    border-radius: 30px;
+}
+.card-icon{
+    width: 61px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 30px;
+}
+.card-content{
+    width: 453px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-content-title{
+    width: auto;
+    height: 28px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    color: #FFFFFF;
+    position: relative;
+    top: -4px;
+}
+.card-content-text{
+    padding-top: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716BA8;
+}
+.card-content-title-h{
+    margin: 0;
+}
+.navigation-circle-confidence{
+    display: none;
+}
+@media screen and (max-width: 1220px) {
+    .main-section-confidence {
+        height: 794px;
+        padding-top: 103px;
+    }
+    .confidence-content-cards {
+        height: 514px;
+        justify-content: center;
+    }
+    .confidence-content-card {
+        width: 430px;
+        height: 242px;
+    }
+    .card-content {
+        width: 290px;
+        height: 182px;
+    }
+    .card-content-text{
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    ::-webkit-scrollbar {
+        width: 2px;
+        height: 0;
+        background-color: #211946;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 9em;
+        box-shadow: inset 1px 1px 10px #FFFFFF;
+    }
+    .confidence-content-title {
+        padding-bottom: 34px;
+    }
+
+}
+@media screen and (max-width: 967px) {
+    .confidence-content-card {
+        width: 351px;
+        height: 242px;
+    }
+    .card-content {
+        width: 210px;
+        height: 182px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-section-confidence {
+        height: 322px;
+        padding-top: 39px;
+    }
+    .confidence-card3, .confidence-card4{
+        display: none;
+    }
+    .confidence-content-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 24px;
+        padding-bottom: 31px;
+        line-height: 28px;
+    }
+    .navigation-circle-confidence{
+        display: flex;
+    }   
+    .img-main-arrow{
+        width: 16px;
+        height: 16px;
+    }
+    .confidence-content-card{
+        width: 341px;
+        height: 182px;
+        padding: 20px;
+        justify-content: flex-start;
+        gap: 20px;
+        border-radius: 20px;
+    }
+    .card-content{
+        height: 142px;
+        position: relative;
+        top: 4px;
+    }
+    .card-content-title {
+        height: 27px;
+    }
+    .card-content-title-h{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .card-content-text {
+        padding-top: 4px;
+    }
+
+}
+@media screen and (max-width: 781px) {
+    .confidence-card2{
+        display: none;
+    }
+}

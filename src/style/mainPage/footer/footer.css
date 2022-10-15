@@ -1,0 +1,146 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #19143E;
+    height: 388px;
+    position: relative;
+}
+.footer-dop-inf{
+    display: flex;
+    justify-content: space-between;
+    width: 703px;
+    padding: 40px 0 40px 0;
+}
+.wrapper-footer-logo{
+    width: 124px;
+    height: 52px;
+}
+.footer-logo{
+    width: 100%;
+    height: 100%;
+}
+.colum-footer-content, .list-footer-buyer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    gap: 20px;
+}
+
+.title-footer-content{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.point-footer-list{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716BA8;
+    cursor: pointer;
+}
+
+.footer-wrapper-for-icon{
+    display: flex;
+    width: 112px;
+    gap: 20px;
+}
+.link-footer-contacts{
+    width: 24px;
+    height: 24px;
+}
+.icon-footer-contacts{
+    width: 100%;
+    height: 100%;
+}
+.protection-of-rights{
+    background: #19143E;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716BA8;
+}
+.footer-hr-line{
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    opacity: 0.08;
+    width: 100vw;
+    position: absolute;
+    bottom: 104px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 720px) {
+    .footer-dop-inf {
+        flex-wrap: wrap;
+        padding: 30px 0 0 0;
+    }
+}
+@media screen and (max-width: 720px) {
+    .footer{
+        height: 435px;
+        justify-content: space-between;
+    }
+    .footer-dop-inf {
+        width: 100vw;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .wrapper-footer-logo {
+        width: 100vw;
+        height: 52px;
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        width: 124px;
+        height: 52px;
+    }
+    .colum-footer-content{
+        margin-right: 20px;
+    }
+    
+}
+@media screen and (max-width: 528px) {
+    .footer{
+        height: 340px;
+    }
+
+    .colum-footer-content{
+        margin-bottom: 30px;
+    }
+    .title-footer-content {
+        font-size: 16px;
+    }
+    .point-footer-list {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .list-footer-buyer, .colum-footer-content{
+        gap: 10px;
+    }
+    .footer-hr-line{
+        bottom: 64px;
+    }
+    .protection-of-rights {
+        height: 64px;
+    }
+}
+@media screen and (max-width: 493px) {
+    .footer{
+        height: 428px;
+    }
+}

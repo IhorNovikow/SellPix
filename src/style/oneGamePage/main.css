@@ -1,0 +1,71 @@
+.main {
+    background: #140f36;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 0;
+    background-color: #211946;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #FFFFFF;
+}
+
+.wrapper-backgroung {
+    background-image: linear-gradient(0deg, #140f36 0%, rgba(20, 15, 54, 0) 28.46%),
+        url(../../assets/photo/oneGamePage/mainBackground.png);
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    position: absolute;
+    height: 845px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+.main-content {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 31px;
+}
+
+.main-wrapper-first-colum{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-wrapper-second-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hr-line-in-box {
+    opacity: 0.05;
+    border: none;
+    border-bottom: 0.5px solid #ffffff;
+}
+@media screen and (max-width: 1220px) {
+    .main-wrapper-second-colum{
+        align-items: center;
+    }
+    .main-wrapper-first-colum {
+        display: none;
+    }
+    .main-wrapper-second-colum {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .main-content {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .main-wrapper-second-colum {
+        gap: 20px;
+    }
+}

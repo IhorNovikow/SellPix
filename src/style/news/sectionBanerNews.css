@@ -1,0 +1,348 @@
+.baner-news {
+    width: 1218px;
+    height: 461px;
+    background: linear-gradient(
+            90deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 39.77%,
+            rgba(20, 15, 54, 0) 51.44%
+        ),
+        url(../../assets/photo/news/backgroundBaner.png);
+    border-radius: 60px;
+    position: relative;
+}
+.wrapper-baner-content {
+    position: absolute;
+    top: 127px;
+    left: 70px;
+}
+.wrapper-content-information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.content-information-calendar,
+.content-information-view {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.content-information-view {
+    margin-left: 20px;
+}
+.content-information-time,
+.content-information-counter-view {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.wrapper-content-title-h {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    color: #ffffff;
+}
+.btr-read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 121px;
+    height: 54px;
+
+    background: #e4014a;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+    margin-top: 17px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btr-read:hover {
+    background: #ef1e61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
+}
+
+.main-wrapper-game-content-genre-button {
+    width: 620px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn-genre {
+    width: 140px;
+    height: 100%;
+    background: rgba(228, 1, 74, 0.2);
+    border-radius: 39px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #e4014a;
+    cursor: pointer;
+}
+.btn-genre:hover {
+    background: rgba(228, 1, 74, 0.35);
+}
+.btn-genre-active {
+    color: #ffffff;
+    background: #e4014a;
+}
+.btn-genre-active:hover {
+    background: #ef1e61;
+}
+.section-blog-wrapper-cards {
+    height: 690px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section-blog-wrapper-card {
+    width: 386px;
+    height: 330px;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.background-box {
+    position: absolute;
+    width: 386px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 23.78%,
+            rgba(20, 15, 54, 0) 45.15%
+        ),
+        url(../../assets/photo/mainSectionBlog/cardBlog01.png);
+    background-repeat: no-repeat;
+}
+
+.section-blog-wrapper-card:hover .background-box {
+    background-size: 414px 354px;
+    width: 414px;
+    height: 354px;
+    top: -12px;
+    left: -14px;
+}
+.blog-wrapper-card-content {
+    width: 100%;
+    height: 112px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0 0 30px;
+}
+.blog-card-title-h {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.blog-wrapper-card-content-description {
+    display: flex;
+    width: 194px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-Icon_calendar,
+.blog-Icon_view {
+    width: 24px;
+    height: 24px;
+}
+.blog-card-time,
+.counter-view {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.wappper-for-button-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-news-show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 54px;
+    background: #e4014a;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-news-show-more:hover {
+    background: #ef1e61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
+}
+@media screen and (max-width: 1220px) {
+    .title-main {
+        width: 100%;
+    }
+    .baner-news {
+        width: 100%;
+        background-position: center;
+    }
+    .main-wrapper-game-content-genre{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .wrapper-news-cards {
+        gap: 20px;
+        justify-content: center;
+        height: auto;
+    }
+    .section-blog-wrapper-card{
+        width: 356px;
+        height: 330px;
+    }
+    .background-box {
+        width: 356px;
+        height: 330px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 23.78%,
+            rgba(20, 15, 54, 0) 45.15%
+        ),
+        url(../../assets/photo/mainSectionBlog/cardBlog01_768.png);
+    }
+
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 380px 353px;
+        width: 380px;
+        height: 340px;
+        top: -10px;
+        left: -12px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .title-main {
+        height: 59px;
+        gap: 10px;
+    }
+    .main-wrapper-way{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .title-game-h2{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .baner-news {
+        height: 345px;
+        border-radius: 30px;
+    }
+    .wrapper-baner-content {
+        left: 30px;
+    }
+    .wrapper-content-information {
+        margin-bottom: 20px;
+    }
+    .wrapper-content-title-h{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .btr-read{
+        width: 115px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-wrapper-game-content-genre-button {
+        height: 90px;
+    }
+    .btn-genre {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .wrapper-news-cards {
+        gap: 30px;
+    }
+    .section-blog-wrapper-card{
+        width: 341px;
+        height: 210px;
+    }
+    .background-box {
+        width: 341px;
+        height: 210px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(20, 15, 54, 0.85) 0%,
+            rgba(20, 15, 54, 0.5525) 23.78%,
+            rgba(20, 15, 54, 0) 45.15%
+        ),
+        url(../../assets/photo/mainSectionBlog/cardBlog01_368.png);
+    }
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 365px 225px;
+        width: 365px;
+        height: 225px;
+        top: -12px;
+        left: -14px;
+    }
+    .blog-wrapper-card-content {
+        padding: 30px 0 0 20px;
+    }
+    .section-blog-wrapper-card:hover .background-box {
+        background-size: 365px 225px;
+        width: 365px;
+        height: 225px;
+        top: -12px;
+        left: -14px;
+    }
+    .button-news-show-more{
+        width: 140px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 781px) {
+    .wrapper-news-card6, .wrapper-news-card5{
+        display: none;
+    }
+}

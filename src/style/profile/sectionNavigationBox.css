@@ -1,0 +1,102 @@
+.list-navigation-box{
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+  height: 324px;
+  background: #19143E;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.li-navigation-box-start{
+  border-radius: 30px 30px 0 0;
+}
+.li-navigation-box{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 30px;
+  gap: 10px;
+  width: 100%;
+  height: 64px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;
+}
+.li-navigation-box:hover{
+  color: #E4014A;
+}
+.li-navigation-box-active{
+  background: #E4014A;
+}
+.li-navigation-box-active:hover{
+  color: #FFFFFF;
+}
+.icon-navigation-box{
+  width: 20px;
+  height: 20px;
+}
+.icon-navigation-box-active *{
+  fill: #FFFFFF;
+}
+.icon-navigation-box-off *{
+  fill: #E4014A;
+}
+.hr-list-navigation-box{
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 0.05;
+}
+.li-navigation-box-end{
+  border-radius: 0 0 30px 30px;
+  color: #716BA8;
+}
+.new-itle-navigation-box{
+  display: none;
+}
+@media screen and (max-width: 1007px) {
+  .new-itle-navigation-box{
+    display: block;
+  }
+  .old-itle-navigation-box{
+    display: none;
+}
+.list-navigation-box {
+  width: 204px;
+}
+}
+@media screen and (max-width: 809px) {
+  .navigation-box{
+    overflow-x: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+  }
+  .list-navigation-box {
+    flex-direction: row;
+    width: 800px;
+    height: 52px;
+    border-radius: 30px;
+  }
+  .li-navigation-box-start{
+    border-radius: 30px 0px 0 30px;
+  }
+  .li-navigation-box-end{
+    border-radius: 0 30px 30px 0;
+  }
+  .li-navigation-box {
+    padding: 0px 0px 0px 0px;
+    width: 160px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 21px;
+    justify-content: center;
+
+  }
+  .hr-list-navigation-box{
+    display: none;
+  }
+}

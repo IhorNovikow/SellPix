@@ -1,0 +1,210 @@
+.main-cooperation{
+    background: #140f36;
+    padding-bottom: 100px;
+}
+.Photo-shop-img {
+    margin-top: 71px;
+    margin-left: -32px;
+    width: 372px;
+    height: 399px;
+}
+.main-wrapper-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 112px;
+}
+.title-description{
+    margin-bottom: 18px;
+}
+.btn-write-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 194px;
+    height: 54px;
+
+    background: #E4014A;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.45);
+    border-radius: 48px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-write-review:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
+}
+.section-question-form{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+
+    width: 1218px;
+    height: 358px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.form-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.form-subtitle{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.input-box-content{
+    display: flex;
+    gap: 20px;
+}
+.input-box-name-company, .input-box-name-mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+
+    width: 539px;
+    height: 54px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 59px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.input-box-name-company:hover, .input-box-name-mail:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+.input-box-name-company:focus, .input-box-name-mail:focus{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+}
+.input-box-name-company::placeholder, .input-box-name-mail::placeholder{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #716BA8;
+}
+.btn-write-request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 194px;
+    height: 54px;
+    background: #E4014A;
+
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.4);
+    border-radius: 48px;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-write-request:hover{
+    background: #EF1E61;
+    box-shadow: 0px 2px 30px rgba(228, 1, 74, 0.65);
+}
+@media screen and (max-width: 1220px) {
+    .section-question-form {
+        width: 100%;
+        height: auto;
+    }
+    .input-box-name-company, .input-box-name-mail{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1029px){
+    .main-wrapper-title {
+        margin-top: 83px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .wrapper-baner-about-us{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .main-cooperation {
+        padding-bottom: 60px;
+    }
+    .wrapper-baner-about-us{
+        height: 319px;
+    }
+    .main-wrapper-title {
+        margin-top: 40px;
+    }
+    .cooperation-card3, .cooperation-card4{
+        display: none;
+    }
+    .section-question-form {
+        padding: 30px;
+        gap: 30px;
+        height: 368px;
+        border-radius: 20px;
+    }
+    .form-title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .form-subtitle{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .input-box-content {
+        flex-direction: column;
+    }
+    .input-box-name-company, .input-box-name-mail{
+        font-size: 14px;
+        line-height: 21px;
+        height: 40px;
+    }
+    .input-box-name-company::placeholder, .input-box-name-mail::placeholder{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .btn-write-request{
+        width: 179px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 781px) {
+    .cooperation-card2{
+        display: none;
+    }
+}

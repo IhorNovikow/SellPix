@@ -1,0 +1,125 @@
+.section-my-seils{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-my-seils{
+    margin-bottom: 100px;
+}
+.section-my-seils-game{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+
+    width: 906px;
+    height: 313px;
+
+    background: #19143E;
+    border-radius: 30px;
+}
+.wrapper-game-description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.game-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.wrapper-game-price{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.value{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.old-vale{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: line-through;
+    color: #716BA8;
+}
+.count-discont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 54px;
+    background: rgba(228, 1, 74, 0.2);
+    border-radius: 48px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #E4014A;
+}
+.count-discont:hover{
+    background: rgba(228, 1, 74, 0.35);
+}
+.description-line{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #716BA8;
+}
+.white-word{
+    color: #FFFFFF;
+}
+.red-word-code{
+    color: #E4014A;
+    cursor: pointer;
+}
+@media screen and (max-width: 1220px) {
+    .section-my-seils-game {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 809px) {
+    .section-my-seils-game{
+        height: auto;
+    }
+    .section-my-seils-game {
+        border-radius: 20px;
+        padding: 20px;
+        min-height: 250px;
+    }
+    .wrapper-game-description {
+        gap: 10px;
+    }
+    .game-title {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .value {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .count-discont {
+        width: 46px;
+        height: 46px;
+    }
+    .description-line, .count-discont {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
